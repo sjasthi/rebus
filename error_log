@@ -1,0 +1,1022 @@
+[23-Jun-2017 20:24:58 America/Denver] PHP Warning:  require(session_validation.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/index.php on line 20
+[23-Jun-2017 20:24:58 America/Denver] PHP Fatal error:  require(): Failed opening required 'session_validation.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/index.php on line 20
+[23-Jun-2017 20:25:09 America/Denver] PHP Warning:  require(session_validation.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/index.php on line 20
+[23-Jun-2017 20:25:09 America/Denver] PHP Fatal error:  require(): Failed opening required 'session_validation.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/index.php on line 20
+[23-Jun-2017 20:28:37 America/Denver] PHP Warning:  require(session_validation.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/index.php on line 20
+[23-Jun-2017 20:28:37 America/Denver] PHP Fatal error:  require(): Failed opening required 'session_validation.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/index.php on line 20
+[23-Jun-2017 20:44:17 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[23-Jun-2017 20:44:17 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[23-Jun-2017 20:44:17 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[23-Jun-2017 20:44:17 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[23-Jun-2017 20:44:34 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[23-Jun-2017 20:44:34 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[23-Jun-2017 20:44:34 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[23-Jun-2017 20:44:34 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[24-Jun-2017 07:44:39 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[24-Jun-2017 07:44:39 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[24-Jun-2017 07:44:39 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[24-Jun-2017 07:44:39 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:23:48 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:23:48 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:23:51 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:23:51 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:23:51 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:23:51 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:23:56 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:23:56 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:23:56 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:23:56 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:08 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:08 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:08 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[25-Jun-2017 10:24:08 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[25-Jun-2017 10:24:08 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[25-Jun-2017 10:24:08 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[25-Jun-2017 10:24:17 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:17 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:17 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:17 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:40 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:40 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:40 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:40 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:48 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:48 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:54 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:54 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:55 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:55 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:55 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:55 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:24:58 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:24:58 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:24:58 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[25-Jun-2017 10:24:58 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[25-Jun-2017 10:24:58 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[25-Jun-2017 10:24:58 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[25-Jun-2017 10:25:01 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:25:01 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:25:01 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:25:01 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:25:24 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 10:25:24 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 10:25:24 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 10:25:24 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:14:40 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:14:40 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:14:40 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:14:40 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:14:54 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:14:54 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:14:54 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:14:54 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:20:15 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:20:15 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:20:15 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[25-Jun-2017 15:20:15 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[25-Jun-2017 15:20:15 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[25-Jun-2017 15:20:15 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[25-Jun-2017 15:20:18 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:20:18 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:20:18 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:20:18 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:20:20 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:20:20 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:20:20 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[25-Jun-2017 15:20:20 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[25-Jun-2017 15:20:20 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[25-Jun-2017 15:20:20 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[25-Jun-2017 15:20:28 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:20:28 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:20:28 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:20:28 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:24:34 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:24:34 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:24:34 America/Denver] PHP Warning:  require(IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:24:34 America/Denver] PHP Fatal error:  require(): Failed opening required 'IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:33:03 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:33:03 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:33:03 America/Denver] PHP Warning:  require(.\IndicTextAnalyzer\word_processor.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:33:03 America/Denver] PHP Fatal error:  require(): Failed opening required '.\IndicTextAnalyzer\word_processor.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/language_processor_functions.php on line 2
+[25-Jun-2017 15:37:38 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[25-Jun-2017 15:37:38 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[25-Jun-2017 15:37:38 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 15
+[26-Jun-2017 20:23:03 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[26-Jun-2017 20:23:03 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[26-Jun-2017 20:23:03 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 15
+[27-Jun-2017 13:40:20 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:40:20 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:40:20 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[27-Jun-2017 13:40:20 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[27-Jun-2017 13:40:20 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[27-Jun-2017 13:40:20 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[27-Jun-2017 13:40:21 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:40:21 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:40:29 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:40:29 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:40:31 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:40:31 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:21 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:21 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:21 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 15
+[27-Jun-2017 13:46:26 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:26 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:26 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[27-Jun-2017 13:46:26 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[27-Jun-2017 13:46:26 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[27-Jun-2017 13:46:26 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[27-Jun-2017 13:46:27 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:27 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:37 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:37 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:52 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:52 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:54 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:54 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:56 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:56 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:59 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:46:59 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:46:59 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[27-Jun-2017 13:46:59 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[27-Jun-2017 13:46:59 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[27-Jun-2017 13:46:59 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[27-Jun-2017 13:47:03 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:47:03 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:47:17 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:47:17 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:47:31 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:47:31 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:47:34 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:47:34 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:47:34 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[27-Jun-2017 13:47:34 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[27-Jun-2017 13:47:34 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[27-Jun-2017 13:47:34 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[27-Jun-2017 13:47:36 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[27-Jun-2017 13:47:36 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[27-Jun-2017 13:47:36 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[27-Jun-2017 13:47:36 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[27-Jun-2017 13:47:36 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[27-Jun-2017 13:47:36 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[28-Jun-2017 09:51:31 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 09:51:31 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 09:51:31 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 15
+[28-Jun-2017 09:51:41 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 09:51:41 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 09:51:41 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 15
+[28-Jun-2017 09:51:48 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 09:51:48 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 09:51:48 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[28-Jun-2017 09:51:48 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[28-Jun-2017 09:51:48 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[28-Jun-2017 09:51:48 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[28-Jun-2017 09:51:49 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 09:51:49 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 09:51:49 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[28-Jun-2017 09:51:49 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[28-Jun-2017 09:51:49 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[28-Jun-2017 09:51:49 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[28-Jun-2017 09:51:50 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 09:51:50 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 09:51:51 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 09:51:51 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 10:57:16 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 10:57:16 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 10:57:16 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[28-Jun-2017 10:57:16 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[28-Jun-2017 10:57:16 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[28-Jun-2017 10:57:16 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[28-Jun-2017 10:58:43 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 10:58:43 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 10:58:43 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 15
+[28-Jun-2017 20:02:23 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 20:02:23 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 20:02:23 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[28-Jun-2017 20:02:23 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[28-Jun-2017 20:02:23 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[28-Jun-2017 20:02:23 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[28-Jun-2017 20:02:34 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 7
+[28-Jun-2017 20:02:34 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 8
+[28-Jun-2017 20:02:34 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[28-Jun-2017 20:02:34 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[28-Jun-2017 20:02:34 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[28-Jun-2017 20:02:34 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[28-Jun-2017 20:15:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 519
+[28-Jun-2017 20:15:21 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:15:21 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:15:21 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:22 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 519
+[28-Jun-2017 20:37:22 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:22 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:22 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:22 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:22 America/Denver] PHP Notice:  Undefined offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:36 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 519
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 664
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 664
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 553
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 553
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 574
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 370
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 587
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 574
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 370
+[28-Jun-2017 20:37:36 America/Denver] PHP Notice:  Undefined offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 587
+[28-Jun-2017 20:37:41 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 519
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 664
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 664
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 553
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 553
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 574
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 370
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 587
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 574
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Uninitialized string offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 370
+[28-Jun-2017 20:37:41 America/Denver] PHP Notice:  Undefined offset: 4 in /home1/icsbinco/public_html/rebus/puzzle.php on line 587
+[28-Jun-2017 20:37:49 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 519
+[28-Jun-2017 20:37:49 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:49 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:37:49 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:38:23 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 519
+[28-Jun-2017 20:38:23 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:38:23 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 20:38:23 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 368
+[28-Jun-2017 21:42:48 America/Denver] PHP Notice:  Undefined variable: puzzle in /home1/icsbinco/public_html/rebus/puzzle.php on line 832
+[28-Jun-2017 21:43:06 America/Denver] PHP Catchable fatal error:  Object of class Puzzle could not be converted to string in /home1/icsbinco/public_html/rebus/puzzle.php on line 832
+[28-Jun-2017 21:43:21 America/Denver] PHP Catchable fatal error:  Object of class Puzzle could not be converted to string in /home1/icsbinco/public_html/rebus/puzzle.php on line 832
+[28-Jun-2017 21:43:36 America/Denver] PHP Catchable fatal error:  Object of class Puzzle could not be converted to string in /home1/icsbinco/public_html/rebus/puzzle.php on line 832
+[29-Jun-2017 05:56:52 America/Denver] PHP Notice:  Undefined variable: location in /home1/icsbinco/public_html/rebus/list_words.php on line 283
+[29-Jun-2017 05:57:43 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:43 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:43 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:43 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:46 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:46 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:47 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:47 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:48 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:57:48 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:34 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:34 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:35 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:35 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:35 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:35 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:36 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 05:59:36 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:06 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:06 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:06 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:06 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:06 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:06 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:09 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:03:09 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[29-Jun-2017 06:04:38 America/Denver] PHP Notice:  Undefined variable: location in /home1/icsbinco/public_html/rebus/list_words.php on line 283
+[29-Jun-2017 06:05:22 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 06:05:22 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 06:05:22 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 06:05:22 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 07:07:08 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[29-Jun-2017 07:07:08 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[29-Jun-2017 07:07:11 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[29-Jun-2017 07:07:11 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[29-Jun-2017 14:45:33 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 14:45:33 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 14:45:33 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 14:45:33 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:26:31 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:26:31 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:26:31 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:26:31 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:27:46 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:27:46 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:27:46 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:27:46 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:27:55 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:27:55 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:27:55 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:27:55 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:28:28 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:28:28 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:28:28 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:28:28 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:30:25 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:30:25 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:30:25 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:30:25 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:20 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:31:20 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:20 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:20 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:21 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:31:21 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:21 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:21 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:22 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:31:22 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:22 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:22 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:24 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:31:24 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:24 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:24 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:57 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:31:57 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:57 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:57 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:58 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:31:58 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:58 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:31:58 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:15 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:32:15 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:15 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:15 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:16 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:32:16 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:16 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:16 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:27 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:32:27 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:27 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:27 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:29 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:32:29 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:29 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:29 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:57 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:32:57 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:57 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:57 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:58 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:32:58 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:58 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:32:58 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:33:00 America/Denver] PHP Warning:  Invalid argument supplied for foreach() in /home1/icsbinco/public_html/rebus/puzzle.php on line 506
+[29-Jun-2017 17:33:00 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:33:00 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 17:33:00 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 363
+[29-Jun-2017 20:52:12 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 20:52:12 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 20:52:12 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 20:52:12 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:27:11 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:27:11 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:27:11 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:27:11 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:27:11 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:27:11 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:28:09 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:28:09 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:28:09 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:28:09 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:28:09 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:28:09 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:29:14 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:29:14 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:29:14 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:29:14 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:57:16 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:57:16 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:57:16 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[29-Jun-2017 21:57:16 America/Denver] PHP Notice:  Undefined offset: 3 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[30-Jun-2017 05:50:54 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 05:50:54 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:42:53 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:42:53 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:42:53 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:42:53 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:42:53 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:42:53 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:43:36 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:43:36 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:43:36 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 20:43:36 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:37:50 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:37:50 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:37:50 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:37:50 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:38:44 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:38:44 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:41:31 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[30-Jun-2017 22:41:31 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[06-Jul-2017 20:52:32 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:52:32 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:52:32 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:52:32 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:52:32 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:52:32 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:10 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:10 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:10 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:10 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:39 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:39 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:39 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:55:39 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:57:17 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:57:17 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:57:17 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:57:17 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:57:17 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:57:17 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:58:15 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 20:58:15 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 651
+[06-Jul-2017 21:29:25 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 649
+[06-Jul-2017 21:29:25 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 649
+[06-Jul-2017 21:29:41 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 649
+[06-Jul-2017 21:29:41 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 649
+[07-Jul-2017 16:48:38 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:48:38 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:48:44 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:48:44 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:48:45 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:48:45 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:50:09 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:50:09 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:50:09 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[07-Jul-2017 16:50:09 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[07-Jul-2017 16:50:09 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[07-Jul-2017 16:50:09 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[07-Jul-2017 16:56:25 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:56:25 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:56:25 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[07-Jul-2017 16:56:25 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[07-Jul-2017 16:56:25 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[07-Jul-2017 16:56:25 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[07-Jul-2017 16:56:58 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:56:58 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:56:58 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 16:57:23 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:57:23 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:57:23 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[07-Jul-2017 16:57:23 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[07-Jul-2017 16:57:23 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[07-Jul-2017 16:57:23 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[07-Jul-2017 16:57:29 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:57:29 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:57:32 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:57:32 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:57:43 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:57:43 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:57:43 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 16:58:10 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:58:10 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:58:12 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:58:12 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:58:23 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:58:23 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:58:23 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 16:58:56 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:58:56 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:58:56 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 16:58:59 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:58:59 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:59:01 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:59:01 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:59:14 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 16:59:14 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 16:59:14 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 17:00:32 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:00:32 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:00:32 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 17:10:48 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:10:48 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:10:48 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 17:10:55 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:10:55 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:10:55 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 17:11:01 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:01 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:01 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[07-Jul-2017 17:11:01 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[07-Jul-2017 17:11:01 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[07-Jul-2017 17:11:01 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[07-Jul-2017 17:11:05 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:05 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:10 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:10 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:10 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 17:11:27 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:27 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:27 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 45
+[07-Jul-2017 17:11:27 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 46
+[07-Jul-2017 17:11:27 America/Denver] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 47
+[07-Jul-2017 17:11:27 America/Denver] PHP Fatal error:  Call to a member function fetch_assoc() on null in /home1/icsbinco/public_html/rebus/list_puzzles.php on line 49
+[07-Jul-2017 17:11:29 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:29 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:33 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:33 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:35 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:35 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:38 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:38 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:41 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:41 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:43 America/Denver] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 11
+[07-Jul-2017 17:11:43 America/Denver] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home1/icsbinco/public_html/rebus/db_configuration.php on line 12
+[07-Jul-2017 17:11:43 America/Denver] PHP Fatal error:  1.Database connection failed: Access denied for user 'prashant'@'localhost' (using password: YES) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 19
+[07-Jul-2017 17:17:05 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 17:19:49 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 17:19:49 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 17:19:49 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 17:19:49 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 17:19:50 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 17:19:50 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 17:39:29 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = '\'); Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\')' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[07-Jul-2017 17:39:35 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = '\'); Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\')' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[07-Jul-2017 17:47:21 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 17:47:21 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 17:47:47 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 17:47:47 America/Denver] PHP Notice:  Undefined offset: 2 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 17:48:46 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 18:58:42 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 18:58:42 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 18:58:56 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[07-Jul-2017 18:58:56 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[07-Jul-2017 18:59:02 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[07-Jul-2017 18:59:02 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[07-Jul-2017 18:59:19 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[07-Jul-2017 18:59:19 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[07-Jul-2017 19:04:08 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:04:08 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:10:07 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:10:07 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:10:07 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:10:07 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:10:10 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:10:10 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:36:46 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:36:46 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:36:47 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 19:36:47 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:10:49 America/Denver] PHP Notice:  Undefined offset: 1 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[07-Jul-2017 20:14:38 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:14:38 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:14:38 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:14:38 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:14:39 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:14:39 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[07-Jul-2017 20:16:13 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[08-Jul-2017 09:04:02 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:04:02 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:04:02 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:04:02 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:12:16 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:12:16 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:13:13 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:13:13 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 09:58:35 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[08-Jul-2017 11:22:55 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:55 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:56 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:56 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:56 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:56 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:57 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:57 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:57 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:57 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:58 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 11:22:58 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:47:49 America/Denver] PHP Notice:  Undefined offset: 0 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[08-Jul-2017 14:50:56 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:56 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:57 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:57 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:57 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:57 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:59 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:50:59 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:53:11 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:53:11 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:53:12 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:53:12 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:53:13 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 14:53:13 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:00:35 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:00:35 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:00:35 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:00:35 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:00:38 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:00:38 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:34 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:34 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:34 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:34 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:35 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:35 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:36 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:36 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:36 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:36 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:39 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:39 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:39 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:39 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:40 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:06:40 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:15:13 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:15:13 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:15:13 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 15:15:13 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:15:14 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/common_sql_functions.php on line 230
+[08-Jul-2017 16:51:41 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:41 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:41 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:41 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:42 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:42 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:43 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:43 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:44 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 16:51:44 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[08-Jul-2017 17:05:37 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: DELETE FROM words WHERE word_id=742;; Error: Cannot delete or update a parent row: a foreign key constraint fails (`icsbinco_rebus`.`characters`, CONSTRAINT `word_id_fk` FOREIGN KEY (`word_id`) REFERENCES `words` (`word_id`) ON UPDATE CASCADE) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[08-Jul-2017 17:06:09 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('742', '0', 'వేం');; Error: Duplicate entry '742-0-వేం' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[09-Jul-2017 15:27:42 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[09-Jul-2017 15:27:42 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[10-Jul-2017 05:18:21 America/Denver] PHP Notice:  Undefined variable: wordProvided in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 139
+[10-Jul-2017 05:18:21 America/Denver] PHP Notice:  Undefined variable: show in /home1/icsbinco/public_html/rebus/admin_edit_synonyms.php on line 143
+[10-Jul-2017 21:10:34 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 21:10:34 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 21:10:34 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 21:10:34 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 21:10:35 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 21:10:35 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 22:32:05 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[10-Jul-2017 22:32:05 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[16-Jul-2017 01:10:20 America/Denver] PHP Notice:  Undefined index: HTTP_REFERER in /home1/icsbinco/public_html/rebus/backup.php on line 62
+[21-Jul-2017 18:33:57 America/Denver] PHP Warning:  include(includes/fusioncharts.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/report.php on line 27
+[21-Jul-2017 18:33:57 America/Denver] PHP Warning:  include(): Failed opening 'includes/fusioncharts.php' for inclusion (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/report.php on line 27
+[21-Jul-2017 18:33:57 America/Denver] PHP Fatal error:  Class 'FusionCharts' not found in /home1/icsbinco/public_html/rebus/report.php on line 82
+[21-Jul-2017 21:08:44 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('742', '0', 'వేం');; Error: Duplicate entry '742-0-వేం' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[22-Jul-2017 06:39:19 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('741', '0', 'కృ');; Error: Duplicate entry '741-0-కృ' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[24-Jul-2017 07:28:07 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('758', '0', 'ఇం');; Error: Duplicate entry '758-0-ఇం' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[24-Jul-2017 10:44:10 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('592', '0', 'వే');; Error: Duplicate entry '592-0-వే' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[24-Jul-2017 21:05:05 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('501', '0', 'ద్ర');; Error: Duplicate entry '501-0-ద్ర' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[26-Jul-2017 11:11:03 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('285', '0', 'ఔ');; Error: Duplicate entry '285-0-ఔ' for key 'PRIMARY' in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[27-Jul-2017 21:47:01 America/Denver] PHP Notice:  Undefined variable: array in /home1/icsbinco/public_html/rebus/search.php on line 37
+[27-Jul-2017 21:47:01 America/Denver] PHP Warning:  implode(): Invalid arguments passed in /home1/icsbinco/public_html/rebus/search.php on line 37
+[27-Jul-2017 21:47:10 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: DELETE FROM words WHERE word_id=741;; Error: Cannot delete or update a parent row: a foreign key constraint fails (`icsbinco_rebus`.`characters`, CONSTRAINT `word_id_fk` FOREIGN KEY (`word_id`) REFERENCES `words` (`word_id`) ON UPDATE CASCADE) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[27-Jul-2017 21:47:46 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: DELETE FROM words WHERE word_id=741;; Error: Cannot delete or update a parent row: a foreign key constraint fails (`icsbinco_rebus`.`characters`, CONSTRAINT `word_id_fk` FOREIGN KEY (`word_id`) REFERENCES `words` (`word_id`) ON UPDATE CASCADE) in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[28-Jul-2017 18:19:37 America/Denver] PHP Warning:  require_once(dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:19:37 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:20:50 America/Denver] PHP Warning:  require_once(dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:20:50 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:23:10 America/Denver] PHP Warning:  require_once(dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:23:10 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:24:18 America/Denver] PHP Warning:  require_once(dompdf/autoload.inc.php): failed to open stream: No such file or directory in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[28-Jul-2017 18:24:18 America/Denver] PHP Fatal error:  require_once(): Failed opening required 'dompdf/autoload.inc.php' (include_path='.:/usr/php/56/usr/lib64:/usr/php/56/usr/share/pear') in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 24
+[10-Aug-2017 18:32:36 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: SELECT * FROM words WHERE word = '<script>alert('hello')</script>';; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'hello')</script>'' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[10-Aug-2017 18:38:27 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: SELECT * FROM words WHERE word = ''drop tables';; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'drop tables'' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[10-Aug-2017 18:38:45 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('942', '0', '\');; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\')' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[10-Aug-2017 18:39:23 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('943', '0', '\');; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\')' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[10-Aug-2017 18:40:25 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: SELECT * FROM words WHERE word = ''Drop table characters;';; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Drop table characters;'' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[10-Aug-2017 18:40:44 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('944', '0', '\');; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\')' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 9 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 14 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 15 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 17 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 18 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 19 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 20 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 21 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 22 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 23 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 26 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 27 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 28 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 35 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 36 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 37 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 38 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 39 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 40 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 41 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 42 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 43 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 48 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 49 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 50 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 51 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 52 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 53 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 54 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 55 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 56 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 57 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 58 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 59 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 60 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 61 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 62 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 9 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 14 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 15 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 17 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 18 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 19 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 20 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 21 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 22 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 23 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 26 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 27 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 28 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 35 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 36 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 37 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 38 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 39 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 40 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 41 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 42 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 43 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 48 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 49 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 50 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 51 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 52 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 53 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 54 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 55 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 56 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 57 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 58 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 59 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 60 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 61 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 62 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 9 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 14 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 15 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 17 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 18 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 19 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 20 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 21 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 22 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 23 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 26 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 27 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 28 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 35 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 36 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 37 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 38 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 39 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 40 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 41 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 42 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 43 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 48 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 49 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 50 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 51 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 52 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 53 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 54 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 55 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 56 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 57 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 58 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 59 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 60 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 61 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:04:18 America/Denver] PHP Notice:  Undefined offset: 62 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 9 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 14 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 15 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 17 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 18 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 19 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 20 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 21 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 22 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 23 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 26 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 27 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 28 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 35 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 36 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 37 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 38 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 39 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 40 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 41 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 42 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 43 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 48 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 49 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 50 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 51 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 52 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 53 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 54 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 55 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 56 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 57 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 58 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 59 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 60 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 61 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 62 in /home1/icsbinco/public_html/rebus/puzzle.php on line 504
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 9 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 14 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 15 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 17 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 18 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 19 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 20 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 21 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 22 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 23 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 26 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 27 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 28 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 35 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 36 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 37 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 38 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 39 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 40 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 41 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 42 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 43 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 48 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 49 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 50 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 51 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 52 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 53 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 54 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 55 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 56 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 57 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 58 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 59 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 60 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 61 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 62 in /home1/icsbinco/public_html/rebus/puzzle.php on line 407
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 9 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 10 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 11 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 12 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 13 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 14 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 15 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 16 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 17 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 18 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 19 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 20 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 21 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 22 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 23 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 24 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 25 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 26 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 27 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 28 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 29 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 30 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 31 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 32 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 33 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 34 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 35 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 36 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 37 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 38 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 39 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 40 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 41 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 42 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 43 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 44 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 45 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 46 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 47 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 48 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 49 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 50 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 51 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 52 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 53 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 54 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 55 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 56 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 57 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 58 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 59 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 60 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 61 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:05:31 America/Denver] PHP Notice:  Undefined offset: 62 in /home1/icsbinco/public_html/rebus/puzzle.php on line 428
+[15-Aug-2017 22:53:48 America/Denver] PHP Notice:  Undefined variable: html in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 74
+[15-Aug-2017 23:03:36 America/Denver] PHP Notice:  Undefined variable: html in /home1/icsbinco/public_html/rebus/print_puzzle.php on line 74
+[24-Aug-2017 17:46:24 America/Denver] PHP Notice:  Undefined index: HTTP_REFERER in /home1/icsbinco/public_html/rebus/backup.php on line 67
+[07-Dec-2017 10:27:51 America/Denver] PHP Fatal error:  Stack Trace: 1Invalid SQL: INSERT INTO characters (word_id, character_index, character_value) VALUES ('928', '0', '\');; Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''\')' at line 1 in /home1/icsbinco/public_html/rebus/db_configuration.php on line 26
+[03-Jan-2018 19:56:35 America/Denver] PHP Warning:  copy(): Filename cannot be empty in /home1/icsbinco/public_html/rebus/list.php on line 146
+[03-Jan-2018 19:56:35 America/Denver] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/icsbinco/public_html/rebus/list.php on line 147
+[01-Aug-2018 09:49:36 America/Denver] PHP Warning:  copy(): Filename cannot be empty in /home1/icsbinco/public_html/rebus/list.php on line 146
+[01-Aug-2018 09:49:36 America/Denver] PHP Warning:  getimagesize(): Filename cannot be empty in /home1/icsbinco/public_html/rebus/list.php on line 147
+[13-Sep-2018 11:06:51 America/Denver] PHP Notice:  Undefined property: Puzzle::$js_solution in /home1/icsbinco/public_html/rebus/puzzle.php on line 117
+[13-Sep-2018 11:06:51 America/Denver] PHP Notice:  Undefined property: Puzzle::$htmlTable in /home1/icsbinco/public_html/rebus/puzzle.php on line 118
+[13-Sep-2018 11:06:51 America/Denver] PHP Notice:  Undefined property: Puzzle::$buttons in /home1/icsbinco/public_html/rebus/puzzle.php on line 119

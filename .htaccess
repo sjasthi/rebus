@@ -1,0 +1,10 @@
+
+RewriteEngine on
+# Use PHP5.6 as default
+AddHandler application/x-httpd-ea-php56 .php
+RewriteCond %{HTTP_HOST} ^rebus\.icsbin\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.rebus\.icsbin\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteRule ^/?$ "http\:\/\/www\.icsbin\.com\/rebus\/index\.php" [R=301,L]
+

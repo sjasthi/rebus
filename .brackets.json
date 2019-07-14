@@ -1,0 +1,12 @@
+{
+    "php-sig.php-smarthints.filteredFunctionList": [
+        "calendar",
+        "dom",
+        "mysql",
+        "mysqli",
+        "passwordhash",
+        "runkit",
+        "simplexml",
+        "sqlite"
+    ]
+}
