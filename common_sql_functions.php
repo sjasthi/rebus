@@ -246,6 +246,74 @@ function getRandomWord($character, $puzzleWords)
     return $chosen_word;
 }
 
+//////////////////////////////////////////////////////////
+
+function getCandidateWordImg($character, $usedWordList)
+{
+    $sql = 'SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = \'' . $character . '\')';
+    $result = run_sql($sql);
+    $rows = [];
+    while ($row = $result->fetch_assoc()) {
+        // array_push($rows, $row);
+        $rows[] = $row;
+    }
+    $chosen_word = null;
+    $numRows = count($rows);
+
+    // echo $numRows;
+    // echo $character;
+    // var_dump($usedWordList);
+
+    while (true) {
+        // echo 'Rows count: ' . $numRows . ' <br>';
+        if ($numRows < 1) {
+            break;
+        } elseif ($numRows > 1) {
+
+            // RANDOM //
+            
+            $random = rand(0, $numRows - 1);
+            // $random = $numRows;
+
+            // END RANDOM //
+            
+        } elseif ($numRows === 1) {
+            $random = 0;
+        }
+        //echo $random;
+        try {
+            $word = $rows[$random]["word"];
+            if (!in_array($word, $usedWordList, true)) {
+                $chosen_word = $rows[$random];
+                break;
+            } else {
+                $numRows--;
+                array_splice($rows, $random, 1);
+            }
+        } catch (Exception $e) {
+            // try again
+            $numRows--;
+        }
+    }
+    return $chosen_word;
+}
+
+
+// Image Search
+function getImg($word){
+    $sql = 'SELECT * FROM words WHERE english_word = ' . "'$word'";
+    $result = run_sql($sql);
+    $count = $result->num_rows;
+
+    if($count > 0){
+        while($row = $result->fetch_assoc()){
+            $rows[] = $row;
+        }
+        return $rows;
+    }
+    return false;
+}
+
 
 function getRandomClueWord($word_id)
 {
