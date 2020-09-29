@@ -136,8 +136,12 @@ require('InsertUtil.php');
 				}
 		
  				foreach ($words as $i => $word) {
+					 //echo "this is i: $i and this is: $word and this is words: $words";
 //					echo($i.'|'.$word.'|'.$engWords[$i].PHP_EOL);
-					
+					$splitWords = $word; //Remove dot at end if exists
+					$splitWords = preg_replace('/\s+/', '', $splitWords);
+					$array = explode(',', $splitWords); //split string into array seperated by ', '
+					//print_r($array);
 					if (!empty($words[$i])) {
 						$engWord = $engWords[$i];
 						
@@ -157,8 +161,12 @@ require('InsertUtil.php');
 						if (!empty($imageName)) {
 							copy($inputFileName, $target_file);
 						}
-						
-						insertIntoWordsTable($word, $engWord, $imageName);
+						foreach($array as $value) //loop over values
+						{
+							echo '"' . $value . '": '; //print value
+							insertIntoWordsTable($value, $engWord, $imageName);
+							echo '<br>';
+						}
 						
 					}
 				} 
