@@ -380,5 +380,65 @@ function getClueValuesFromPuzzleWords($puzzle_id)
     return false;
 }
 
+function checkWord($word)
+{
+    $sqlStatement = 'SELECT * FROM words WHERE word=\'' . $word . '\';';
+    $result = run_sql($sqlStatement);
+    $rows = array();
+    while ($row = $result->fetch_assoc()) {
+        array_push($rows, $row);
+    }
+    $num_rows = count($rows);
+    if ($num_rows !== 0) {
+        return $rows[0]["word"];
+    }
+    return null;
+}
+
+function getRandomWordWithException($character, $puzzleWords, $wordsNotToUse)
+{
+    $exclusion_words = "";
+    for ($x = 0; $x < count($wordsNotToUse); $x++){
+        $exclusion_words .= ' AND words.word != \'' . $wordsNotToUse[$x] . '\'';
+    }
+    $sql = 'SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = \'' . $character . '\'' . $exclusion_words . ' )';
+    
+    $result = run_sql($sql);
+    $rows = array();
+    while ($row = $result->fetch_assoc()) {
+        array_push($rows, $row);
+    }
+    $chosen_word = null;
+    $numRows = count($rows);
+    //echo $character;
+    //var_dump($puzzleWords);
+
+    while (true) {
+        //echo 'Rows count: ' . $numRows . ' <br>';
+        if ($numRows < 1) {
+            break;
+        } elseif ($numRows > 1) {
+            $random = rand(0, $numRows - 1);
+        } elseif ($numRows === 1) {
+            $random = 0;
+        }
+        //echo $random;
+        try {
+            $word = $rows[$random]["word"];
+            if (!in_array($word, $puzzleWords, true)) {
+                $chosen_word = $rows[$random];
+                break;
+            } else {
+                $numRows--;
+                array_splice($rows, $random, 1);
+            }
+        } catch (Exception $e) {
+            // try again
+            $numRows--;
+        }
+    }
+    return $chosen_word;
+}
+
 
 ?>
