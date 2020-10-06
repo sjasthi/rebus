@@ -136,6 +136,12 @@ if ($error) {
        <td align="center">
           <a href="add_many_words_one_image.php"><img src="./pic/add_many_words_one_image.jpg" class="adminThumbnailSize">
       </td>
+      <td align="center">
+          <a href="one_from_a_given_list.php"><img src="./pic/one_from_A_list.png" class="adminThumbnailSize">
+      </td>
+      <td align="center">
+          <a href="puzzle_with_exclusion.php"><img src="./pic/exclusion_list.png" class="adminThumbnailSize">
+      </td>
 <!--
         <td align="center">
             <a target="_blank" href="one_to_many.php"><img src="./pic/oneWordManyPuzzles.png"
@@ -159,6 +165,10 @@ if ($error) {
         <td align="center"><a href="many_from_a_list.php">Many From a List</a></td>
         <td align="center"><a href="add_words.php">Add Words</a></td>
         <td align="center"><a href="add_many_words_one_image.php">Add Many Words One Image</a></td>
+        <td align="center"><a href="one_from_a_given_list.php">One From a Given List</a></td>
+        <td align="center"><a href="puzzle_with_exclusion.php">Create Puzzle With Exclusion List</a></td>
+
+
 <!--
         <td align="center"><a target="_blank" href="one_to_many.php">One Word <br> Many Puzzle</a></td>
         <td align="center"><a target="_blank" href="many_to_one.php">Many Words <br> One Puzzle</a></td>
