@@ -246,6 +246,9 @@ session_cache_limiter(false);
     </div>
 
 </div>
+
+
+
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script>
@@ -254,44 +257,24 @@ session_cache_limiter(false);
 <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
 <script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.html5.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
-
-<!--<script type="text/javascript"> 
-
-    $(document).ready(function () {
-
-        $('#info').DataTable();
-
-    });-->
 
     <script type="text/javascript" language="javascript">
     $(document).ready( function () {
         
         $('#info').DataTable( {
-            dom: 'lfrtBip',
+            dom: 'lBfrtip',
+            lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+            paging: true,
+            pagingType: "full_numbers",
             buttons: [
-                'copy', 'excel', 'csv', 'pdf'
+                'copyHtml5',
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
             ] }
         );
-
-    /*    $('#info thead tr').clone(true).appendTo( '#info thead' );
-        $('#info thead tr:eq(1) th').each( function (i) {
-            var title = $(this).text();
-            $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
-    
-            $( 'input', this ).on( 'keyup change', function () {
-                if ( table.column(i).search() !== this.value ) {
-                    table
-                        .column(i)
-                        .search( this.value )
-                        .draw();
-                }
-            } );
-        } );*/
     
         var table = $('#info').DataTable( {
             orderCellsTop: true,
