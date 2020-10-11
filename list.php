@@ -31,6 +31,7 @@ session_cache_limiter(false);
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
@@ -50,6 +51,22 @@ session_cache_limiter(false);
 
         <h3>Word List</h3>
 
+        <div>
+        Toggle column: 
+        <a class="toggle-vis" data-column="0">Word ID</a> - 
+        <a class="toggle-vis" data-column="1">Word</a> - 
+        <a class="toggle-vis" data-column="2">English Word</a> - 
+        <a class="toggle-vis" data-column="3">Image</a> - 
+        <a class="toggle-vis" data-column="4">Actions</a> - 
+        <a class="toggle-vis" data-column="5">Length</a> -
+        <a class="toggle-vis" data-column="6">Weight</a> - 
+        <a class="toggle-vis" data-column="7">Strength</a> - 
+        <a class="toggle-vis" data-column="8">Level</a> - 
+        <a class="toggle-vis" data-column="9">Date Modified</a> - 
+        <a class="toggle-vis" data-column="10">Date Created</a> 
+        </div>
+
+
         <table id="info" cellpadding="0" cellspacing="0" border="0" class="datatable table table-striped table-bordered"
                width="100%">
 
@@ -66,6 +83,19 @@ session_cache_limiter(false);
                 <th>Image</th>
 
                 <th>Actions</th>
+
+                <th>Length</th>
+
+                <th>Weight</th>
+
+                <th>Strength</th>
+
+                <th>Level</th>
+
+                <th>Date Modified</th>
+
+                <th>Date Created</th>
+
 
             </tr>
 
@@ -113,6 +143,18 @@ session_cache_limiter(false);
                                   <input class=\"upload\" type=\"submit\" value=\"Upload/Replace Image\" name=\"submit\">
                             </form> 
                         </td>
+
+                        <td>" . $row["length"] . "</td>
+                        
+                        <td>" . $row["weight"] . "</td>
+
+                        <td>" . $row["strength"] . "</td>
+
+                        <td>" . $row["level"] . "</td>
+
+                        <td>" . $row["date_modified"] . "</td>
+
+                        <td>" . $row["date_created"] . "</td>
                         
                         </tr>";
                 }
@@ -183,6 +225,18 @@ session_cache_limiter(false);
 
                 <th>Actions</th>
 
+                <th>Length</th>
+
+                <th>Weight</th>
+
+                <th>Strength</th>
+
+                <th>Level</th>
+
+                <th>Date Modified</th>
+
+                <th>Date Created</th>
+
             </tr>
 
             </tfoot>
@@ -192,6 +246,13 @@ session_cache_limiter(false);
     </div>
 
 </div>
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+<script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.html5.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 
@@ -199,13 +260,65 @@ session_cache_limiter(false);
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
 
-<script type="text/javascript">
+<!--<script type="text/javascript"> 
 
     $(document).ready(function () {
 
         $('#info').DataTable();
 
-    });
+    });-->
+
+    <script type="text/javascript" language="javascript">
+    $(document).ready( function () {
+        
+        $('#info').DataTable( {
+            dom: 'lfrtBip',
+            buttons: [
+                'copy', 'excel', 'csv', 'pdf'
+            ] }
+        );
+
+    /*    $('#info thead tr').clone(true).appendTo( '#info thead' );
+        $('#info thead tr:eq(1) th').each( function (i) {
+            var title = $(this).text();
+            $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
+    
+            $( 'input', this ).on( 'keyup change', function () {
+                if ( table.column(i).search() !== this.value ) {
+                    table
+                        .column(i)
+                        .search( this.value )
+                        .draw();
+                }
+            } );
+        } );*/
+    
+        var table = $('#info').DataTable( {
+            orderCellsTop: true,
+            fixedHeader: true,
+            retrieve: true
+        } );
+        
+    } );
+
+    $(document).ready(function() {
+        
+    var table = $('#info').DataTable( {
+        retrieve: true,
+        "scrollY": "200px",
+        "paging": false
+    } );
+ 
+    $('a.toggle-vis').on( 'click', function (e) {
+        e.preventDefault();
+ 
+        // Get the column API object
+        var column = table.column( $(this).attr('data-column') );
+ 
+        // Toggle the visibility
+        column.visible( ! column.visible() );
+    } );
+} );
 
 </script>
 

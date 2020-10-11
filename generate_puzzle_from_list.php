@@ -22,6 +22,7 @@
 <?php
 require('create_puzzle.php');
 require ('utility_functions.php');
+
 ?>
 <div style="width: 100%; background-color: #92d050; text-align: center;"><img src="./pic/SILClogo.jpg" style="height: 190px; width:auto; cursor: pointer;" onclick="showHideOptions()"> </div><br>
 <div class="container">
@@ -34,12 +35,14 @@ require ('utility_functions.php');
 
             $input2 = preg_replace("/\r\n/", ",", validate_input($_POST['solutionWords']));
             $solution_words = explode(",", trim($input2));
+            //$processing_word = new wordProcessor;
+            $word_length = getWordLength($input);
             if ($input == '' || $input2 == '') {
                 //echo '<script type="text/javascript">alert("You did not enter any words. Please try again!"); window.location.href = "one_from_a_given_list.php"</script>';
             } else if (count(explode(",", trim($input))) > 1) {
                 // If input contains more than one words, go back to previous page
                 echo '<script type="text/javascript">alert("You can only enter one word in the puzzle word section. Please try again"); window.location.href = "one_from_a_given_list.php"</script>';
-            } else if (strlen($input) > count($solution_words)) {
+            } else if ($word_length > count($solution_words)) {
                 echo '<script type="text/javascript">alert("The length of the puzzle word must be less than or equal to the number of soution words. Please try again");
                 window.location.href = "one_from_a_given_list.php"</script> ';
             } else {
