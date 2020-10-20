@@ -28,18 +28,25 @@ require('session_validation.php');
 <div>
     <form method="post" action="generate_puzzle_from_list.php">
         <div class="container">
-            <div align="center" style="font-size: 30px;">Puzzle Word</div>
-            <div class="inputDiv"><input type="textbox" name="puzzleWord" id="name-textbox"
+            <!-- <div align="center" style="font-size: 30px;">Puzzle Word</div> -->
+            <!-- <div class="inputDiv"><input type="textbox" name="puzzleWord" id="name-textbox"
                                          placeholder="Enter a word to create a puzzle"
-                                         onclick="this.placeholder = ''"/>
-            </div>
+                                         onclick="this.placeholder = ''"/> -->
+            <label style="font-size: 30px;">Puzzle Word</label>
+            <textarea style=width:400px class="form-control" name="puzzleWord" cols="55" rows="2" placeholder="Enter a word to create a puzzle"
+            onclick="this.placeholder = ''"></textarea>
+            <!-- </div> -->
             <br>
             <br>
-            <div align="center" style="font-size: 30px;">Solution Words</div>
+            <!-- <div align="center" style="font-size: 30px;">Solution Words</div>
             <div class="inputDiv"><input type="textbox" name="solutionWords" id="name-textbox"
                                          placeholder="Enter words to be used to solve the puzzle"
                                          onclick="this.placeholder = ''"/>
-            </div>
+            </div> -->
+            
+            <label style="font-size: 30px;">Solution Words</label>
+            <textarea style=width:400px class="form-control" name="solutionWords" cols="55" rows="5" placeholder="Enter words to be used to solve the puzzle"
+            onclick="this.placeholder = ''"></textarea>
             <div style="text-align:center">
                 <input class="main-buttons" type="submit" value="Show me.."/>
             </div>

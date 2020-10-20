@@ -31,6 +31,10 @@
 		.mainText {
 			font-size: 1.5em;
 		}
+
+		.form-control {
+			border: 1px solid black;
+		}
 	</style>	
 </head>
 <body>
@@ -70,53 +74,63 @@ require('InsertUtil.php');
 			</thead>
 			<tbody>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+            		<td><textarea class="form-control" name="words[]" id="name" cols="30" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+				<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>	
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>
 				<tr>
-					<td><input type="textbox" name="words[]" id="name"/></td>
+					<td><textarea class="form-control" name="words[]" id="name" cols="20" rows="2"></textarea></td>
+					<!-- <td><input type="textbox" name="words[]" id="name"/></td> -->
 					<td><input type="textbox" name="eng_words[]" id="eng_word"/></td>
 					<td><input class="upload" type="file" name="filesToUpload[]" id="fileToUpload"/></td>
 				</tr>

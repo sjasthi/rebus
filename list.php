@@ -29,11 +29,7 @@ session_cache_limiter(false);
     <link rel="stylesheet" href="styles/main_style.css" type="text/css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <!-- jQuery library -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
-    <!-- Latest compiled JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
     <title>Rebus Word List</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"/>
@@ -120,8 +116,47 @@ session_cache_limiter(false);
 
                 while ($row = $result->fetch_assoc()) {
 
-                    echo '<tr>
+                    $ID = $row["word_id"];
+                    $word = $row["word"];
+                    $english_word = $row["english_word"];
+                    $image = $row["image"];
+                    $length = $row["length"];
+                    $weight = $row["weight"];
+                    $strength = $row["strength"];
+                    $level = $row["level"];
+                    $date_modified = $row["date_modified"];
+                    $date_created = $row["date_created"];
 
+                    $_SESSION['role'] = "Admin";
+                    if(isset($_SESSION['role'])) {
+?>
+                <tr>
+                    <td><?php echo $ID; ?></td>
+                    <td><div contenteditable="true" onBlur="updateValue(this,'word','<?php echo $ID; ?>')"><?php echo $word; ?></div></span> </td>
+                    <td><div contenteditable="true" onBlur="updateValue(this,'english_word','<?php echo $ID; ?>')"><?php echo $english_word; ?></div></span> </td>
+                    <td><div><img class="thumbnailSize" src="./Images/<?php echo $image; ?>"  alt ="" ><?php echo $image; ?></div></span> </td>
+                    <td><div><a href='admin_edit_synonyms.php?id="<?php echo $ID; ?> "&button=edit'>
+                            <img class="table_image" src="pic/edit.jpg" alt="Edit " <?php $ID; ?>>
+                            </a>
+                            <a href='list.php?id=" <?php $ID; ?> "&button=delete'>
+                                <img class="table_image" src="pic/delete.png" alt="deleteWord">
+                            </a>
+                            <form class="upload" method="post" name="importFrom" enctype="multipart/form-data" onsubmit="return validateForm()">
+                                  <label class="upload"><input class="upload" type="file" name="fileToUpload" id="fileToUpload"></label>
+                                  <input class="upload" type="hidden" name="word_id" value="" <?php $ID; ?>/>
+                                  <input class="upload" type="submit" value="Upload/Replace Image" name="submit">
+                            </form>
+                            </div></span> </td>
+                    <td><div><?php echo $length; ?></div></span> </td>
+                    <td><div><?php echo $weight; ?></div></span> </td>
+                    <td><div><?php echo $strength; ?></div></span> </td>
+                    <td><div><?php echo $level; ?></div></span> </td>
+                    <td><div><?php echo $date_modified; ?></div></span> </td>
+                    <td><div><?php echo $date_created; ?></div></span> </td>
+                </tr>
+                 <?php  
+                    }else{ 
+                    echo '<tr>
                         <td>' . $row["word_id"] . "</td>
                 
                         <td>" . $row["word"] . "</td>
@@ -143,21 +178,17 @@ session_cache_limiter(false);
                                   <input class=\"upload\" type=\"submit\" value=\"Upload/Replace Image\" name=\"submit\">
                             </form> 
                         </td>
-
                         <td>" . $row["length"] . "</td>
                         
                         <td>" . $row["weight"] . "</td>
-
                         <td>" . $row["strength"] . "</td>
-
                         <td>" . $row["level"] . "</td>
-
                         <td>" . $row["date_modified"] . "</td>
-
                         <td>" . $row["date_created"] . "</td>
                         
                         </tr>";
                 }
+            }
             } else {
                 echo "0 results";
             }
@@ -246,39 +277,63 @@ session_cache_limiter(false);
     </div>
 
 </div>
-<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-<script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.4/js/dataTables.buttons.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
-<script src="https://cdn.datatables.net/buttons/1.6.4/js/buttons.html5.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!--JQuery-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> 
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.min.js"></script>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/datatables/1.10.12/js/dataTables.bootstrap.min.js"></script>
+<!--Data Table-->
+<script type="text/javascript" charset="utf8"
+        src="https://editor.datatables.net/extensions/Editor/js/dataTables.editor.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/buttons/1.6.1/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/select/1.3.1/js/dataTables.select.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/fixedheader/3.1.5/js/dataTables.fixedHeader.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/buttons/1.5.2/js/dataTables.buttons.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.html5.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdn.datatables.net/buttons/1.5.2/js/buttons.flash.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/pdfmake.min.js"></script>
+<script type="text/javascript" charset="utf8"
+        src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.36/vfs_fonts.js"></script>
 
-<!--<script type="text/javascript"> 
-
-    $(document).ready(function () {
-
-        $('#info').DataTable();
-
-    });-->
 
     <script type="text/javascript" language="javascript">
     $(document).ready( function () {
         
         $('#info').DataTable( {
-            dom: 'lfrtBip',
+            dom: 'lBfrtip',
+            lengthMenu: [[10, 25, 50, -1], [10, 25, 50, "All"]],
+            paging: true,
+            pagingType: "full_numbers",
             buttons: [
-                'copy', 'excel', 'csv', 'pdf'
+                'copyHtml5',
+                'excelHtml5',
+                'csvHtml5',
+                'pdfHtml5'
             ] }
         );
 
-    /*    $('#info thead tr').clone(true).appendTo( '#info thead' );
+        $('#info thead tr').clone(true).appendTo( '#info thead' );
         $('#info thead tr:eq(1) th').each( function (i) {
             var title = $(this).text();
             $(this).html( '<input type="text" placeholder="Search '+title+'" />' );
@@ -291,7 +346,7 @@ session_cache_limiter(false);
                         .draw();
                 }
             } );
-        } );*/
+        } );
     
         var table = $('#info').DataTable( {
             orderCellsTop: true,
@@ -320,9 +375,25 @@ session_cache_limiter(false);
     } );
 } );
 
+function updateValue(element,column,id){
+        var value = element.innerText
+        $.ajax({
+            url:'editable_list.php',
+            type: 'post',
+            data:{
+                value: value,
+                column: column,
+                id: id
+            },
+            success:function(php_result){
+				console.log(php_result);
+				
+            }
+            
+        })
+    }
 </script>
 
 </body>
 
 </html>
-
