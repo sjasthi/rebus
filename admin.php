@@ -142,6 +142,9 @@ if ($error) {
       <td align="center">
           <a href="puzzle_with_exclusion.php"><img src="./pic/exclusion_list.png" class="adminThumbnailSize">
       </td>
+      <td align="center">
+          <a href="add_images.php"><img src="./pic/add_images.png" class="adminThumbnailSize">
+      </td>
 <!--
         <td align="center">
             <a target="_blank" href="one_to_many.php"><img src="./pic/oneWordManyPuzzles.png"
@@ -167,6 +170,7 @@ if ($error) {
         <td align="center"><a href="add_many_words_one_image.php">Add Many Words One Image</a></td>
         <td align="center"><a href="one_from_a_given_list.php">One From a Given List</a></td>
         <td align="center"><a href="puzzle_with_exclusion.php">Create Puzzle With Exclusion List</a></td>
+        <td align="center"><a href="add_images.php">Add Images</a></td>
 
 
 <!--
