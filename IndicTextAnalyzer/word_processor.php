@@ -372,5 +372,7 @@ class wordProcessor {
 
 		return $weight;
 	}
+
+
 }
 ?>

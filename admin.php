@@ -180,6 +180,17 @@ if ($error) {
         <td align="center"><a href="userManual.php">User <br> Manual</a></td>
 -->
     </tr>
+    <tr class="separator">
+        <td></td>
+    </tr>
+    <tr>
+        <td align="center">
+                <a href="force_sync.php"><img src="./pic/force_sync.png" class="adminThumbnailSize">
+        </td>
+    </tr>
+    <tr>
+        <td align="center"><a href="force_sync.php">Force Sync</a></td>
+    </tr>
 </table>
 </div>
 
