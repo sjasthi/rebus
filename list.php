@@ -150,7 +150,7 @@ if (!isset($_SESSION)) {
                     <td><div><?php echo $length; ?></div></span> </td>
                     <td><div><?php echo $weight; ?></div></span> </td>
                     <td><div><?php echo $strength; ?></div></span> </td>
-                    <td><div><?php echo $level; ?></div></span> </td>
+                    <td><div contenteditable="true" onBlur="updateValue(this,'word','<?php echo $ID; ?>')"><?php echo $level; ?></div></span> </td>
                     <td><div><?php echo $date_modified; ?></div></span> </td>
                     <td><div><?php echo $date_created; ?></div></span> </td>
                 </tr>
