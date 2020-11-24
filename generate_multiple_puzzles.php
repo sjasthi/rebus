@@ -68,8 +68,93 @@ require ('utility_functions.php');
 //            echo '<lable><b style="font-size: 20px;">Column Preference: </b></lable>';
 //            echo '<label>Number of words per row: </label><input style="margin-left:5px;" type="number" name="rowSize" id="rowSize"min="3" max = "10" value="4" onchange="changeTableRow()"/><label> (Range is from 3 to 10)</label>';
 //            echo '</div>';
-            echo '</div>';
+            echo '<div id="lengthPreferences">';
+            echo '<form action="/rebus/generate_multiple_puzzles.php" method="post"><lable><b style="font-size: 20px;">Length Preference: </b></lable>';
+            echo '<label>Length Minimum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="lenmin" id="lenmin"/>';
+            echo '<label style="padding: 8px;">Length Maximum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="lenmax" id="lenmax"/>';
+            echo '<input type="hidden" id="puzzles" name="puzzles" value="'. $_POST['puzzles'] .'">';
+            if(isset($_POST['max'])){ 
+            echo '<input type="hidden" id="max" name="max" value="'. $max .'">';
+            }
+            echo '</div><div id="dateCreated">';
+            echo '<lable><b style="font-size: 20px;">Creation Date:</b></lable>\
+            <label style="padding: 8px;">Pull from words created within how many days: </label>';
+            echo '<input type=text name="daysFromToday" id="daysFromToday"></div>';
 
+            echo '<div id="strengthPreferences">';
+            echo '<lable><b style="font-size: 20px;">Strength Preferences: </b></lable>';
+            echo '<label>Strength Minimum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="strengthmin" id="strengthmin"/>';
+            echo '<label style="padding: 8px;">Strength Maximum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="strengthmax" id="strengthmax"/></div>';
+
+            echo '<div id="weightPreferences">';
+            echo '<lable><b style="font-size: 20px;">Weight Preferences: </b></lable>';
+            echo '<label>Weight Minimum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="weightmin" id="weightmin"/>';
+            echo '<label style="padding: 8px;">Weight Maximum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="weightmax" id="weightmax"/></div>';
+
+            echo '<div id="levelPreferences">';
+            echo '<lable><b style="font-size: 20px;">Level Preferences: </b></lable>';
+            echo '<label>Level Minimum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="levelmin" id="levelmin"/>';
+            echo '<label style="padding: 8px;">Level Maximum</label>
+            <input style="margin-left:5px;" size="2px" type="text" name="levelmax" id="levelmax"/>';
+
+            echo '<br><input type="submit" value="Refresh">';
+            echo '</form></div>';
+            echo '</div>';
+            $lenmin = 1;
+            $lenmax = 120;
+            $daysFromToday = 1000;
+            $strengthmin = 1;
+            $strengthmax = 7;
+            $weightmin = 1;
+            $weightmax = 30;
+            $levelmin = 1;
+            $levelmax = 7;
+            if (isset($_POST['lenmin']) && is_numeric($_POST['lenmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $lenmin = $_POST['lenmin'];
+              } else { // this is for one to many
+                $lenmin = 1;
+              }
+      
+              if (isset($_POST['lenmax']) && is_numeric($_POST['lenmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $lenmax = $_POST['lenmax'];
+              } else { // this is for one to many
+                $lenmax = 120;
+              }
+      
+              if (isset($_POST['daysFromToday']) && is_numeric($_POST['daysFromToday'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $daysFromToday = $_POST['daysFromToday'];
+              } 
+      
+              if (isset($_POST['strengthmin']) && is_numeric($_POST['strengthmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $strengthmin = $_POST['strengthmin'];
+              } 
+      
+              if (isset($_POST['strengthmax']) && is_numeric($_POST['strengthmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $strengthmax = $_POST['strengthmax'];
+              } 
+      
+              if (isset($_POST['weightmin']) && is_numeric($_POST['weightmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $weightmin = $_POST['weightmin'];
+              } 
+      
+              if (isset($_POST['weightmax']) && is_numeric($_POST['weightmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $weightmax = $_POST['weightmax'];
+              } 
+      
+              if (isset($_POST['levelmin']) && is_numeric($_POST['levelmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $levelmin = $_POST['levelmin'];
+              } 
+      
+              if (isset($_POST['levelmax']) && is_numeric($_POST['levelmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                $levelmax = $_POST['levelmax'];
+              } 
 
             $puzzles = explode(",", trim($input));
             //var_dump($puzzles);
@@ -88,7 +173,8 @@ require ('utility_functions.php');
                 $word_array = array();
                 $image_array = array();
                 for ($i = 0; $i < count($puzzleChars); $i++) {
-                    $word = getRandomWord($puzzleChars[$i], $wordList);
+                    $word = getRandomWord($puzzleChars[$i], $wordList, $lenmin, $lenmax, $daysFromToday, $strengthmin, $strengthmax, $weightmin, 
+                    $weightmax, $levelmin, $levelmax);
                     if (!empty($word)) {
                         array_push($word_array, $word['word']);
                         array_push($wordList, $word['word']);
