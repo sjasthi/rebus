@@ -4,6 +4,9 @@ require_once('db_configuration.php');
 require('language_processor_functions.php');
 require('utility_functions.php');
 require('common_sql_functions.php');
+require_once('indicTextAnalyzer/word_processor.php');
+require_once('indicTextAnalyzer/telugu_parser.php');
+
 
 /**
  * This method inserts given data into the Words table
@@ -19,8 +22,16 @@ function insertIntoWordsTable($word, $eng_word, $image)
     $num_rows = $result->num_rows;
 
     if ($num_rows == 0) {
+        $tcount = parseToLogicalCharacters($word);
+        $len = count($tcount);
+        $processor = new wordProcessor($word, 'telugu');
+        $strength = $processor->getWordStrength('telugu');
+        $processor2 = new wordProcessor($word, 'telugu');
+        $weight = $processor2->getWordWeight('telugu');
+        
         //insert each new words into words table.
-        $sqlAddWord = 'INSERT INTO words (word_id, word, english_word, image) VALUES (DEFAULT, \'' . $word . '\', \'' . $eng_word . '\', \'' . $image . '\');';
+        $sqlAddWord = 'INSERT INTO words (word_id, word, english_word, image, length, strength, weight, level) 
+        VALUES (DEFAULT, \'' . $word . '\', \'' . $eng_word . '\', \'' . $image . '\', \'' . $len . '\', \'' . $strength . '\', \'' . $weight . '\', \'' . $strength . '\');';
         $result = run_sql($sqlAddWord);
         $word_id = $result;
         $logicalChars = getWordChars($word);
@@ -63,5 +74,35 @@ function insertIntoCharactersTable($word)
         }
     }
 }
+
+// function insertLengthStrengthWeightLevel($word, $length, $strength, $weight)
+// {
+//     //Check to see if entered words exists in the DB.
+//     $sqlCheck = 'SELECT * FROM words WHERE word = \'' . $word . '\';';
+//     $result = run_sql($sqlCheck);
+//     $num_rows = $result->num_rows;
+
+//     if ($num_rows == 0) {
+//         //insert each new words into words table.
+//         $sql = "UPDATE `words` SET `length` = '$len' WHERE `word` = $id";
+//         $sqlAddWord = 'INSERT INTO words (word_id, word, english_word, image) VALUES (DEFAULT, \'' . $word . '\', \'' . $eng_word . '\', \'' . $image . '\');';
+//         $result = run_sql($sqlAddWord);
+//         $word_id = $result;
+//         $logicalChars = getWordChars($word);
+
+//         for ($j = 0; $j < count($logicalChars); $j++) {
+//             //insert each letter into char table.
+//             if($logicalChars[$j] != " ") {
+//                 $sqlAddLetters = 'INSERT INTO characters (word_id, character_index, character_value) VALUES (\'' . $word_id . '\', \'' . $j . '\', \'' . $logicalChars[$j] . '\');';
+//                 run_sql($sqlAddLetters);
+//             }
+//         }
+//         echo '<h2 style="color:	green;" class="upload">Success: Word is added.</h2>';
+//     } else {
+//         //The words already exists in the database.
+//         echo '<h2 style="color:	red;" class="upload">Word already exists in the database.</h2>';
+//         //Do Nothing if the words already exists in the DB.
+//     }
+// }
 
 ?>

@@ -177,8 +177,16 @@ require('InsertUtil.php');
 						}
 						foreach($array as $value) //loop over values
 						{
+							// $tcount = parseToLogicalCharacters($value);
+							// $len = count($tcount);
+							// $processor = new wordProcessor($value, 'telugu');
+							// $strength = $processor->getWordStrength('telugu');
+							// $processor2 = new wordProcessor($value, 'telugu');
+							// $weight = $processor2->getWordWeight('telugu');
+
 							echo '"' . $value . '": '; //print value
 							insertIntoWordsTable($value, $engWord, $imageName);
+							// insertLengthStrengthWeightLevel($value, $len, $strength, $weight)
 							echo '<br>';
 						}
 						

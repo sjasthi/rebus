@@ -139,7 +139,6 @@ function get_random_word($character, $puzzlewords)
         $random = rand(0, $numofRows - 1);
         echo 'Random: ' . $random . ' <br>';
         $word = $rows[$random]["word"];
-
         if (!in_array($word, $puzzlewords, true)) {
             $chosen_word = $word;
             break;
