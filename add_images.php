@@ -4,22 +4,22 @@ require 'db_configuration.php';
 require('session_validation.php');
 session_start();
 
-if(is_array($_FILES)) 
-{
+// if(is_array($_FILES)) 
+// {
     
-    //echo $_FILES;
-    if(isset($_FILES['userImage']['tmp_name'])){
-        if(is_uploaded_file($_FILES['userImage']['tmp_name'])) {
-            $sourcePath = $_FILES['userImage']['tmp_name'];
-            $targetPath = "images/".$_FILES['userImage']['name'];
+//     //echo $_FILES;
+//     if(isset($_FILES['userImage']['tmp_name'])){
+//         if(is_uploaded_file($_FILES['userImage']['tmp_name'])) {
+//             $sourcePath = $_FILES['userImage']['tmp_name'];
+//             $targetPath = "images/".$_FILES['userImage']['name'];
             
-            move_uploaded_file($sourcePath,$targetPath);
+//             move_uploaded_file($sourcePath,$targetPath);
             
-            print_r($_FILES);
-        }
-    }
+//             print_r($_FILES);
+//         }
+//     }
 
-}
+// }
 
 // if (isset($_POST['word_id'])) {
 
@@ -99,6 +99,7 @@ if(is_array($_FILES))
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
     <!-- Latest compiled JavaScript -->
     <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
@@ -228,7 +229,8 @@ if(is_array($_FILES))
                     $image_name = str_replace(' ', '_', $title_words[0]);
         ?>                
                     <td>
-                        <form action="upload.php" class='dropzone'  id = '<?php echo $db_words[$a] ?>' method="post">
+                        <form action="upload.php" class='dropzone'  ondrop="dropHandler(this,event,'<?php echo $db_words[$a]; ?>')" method="post">
+                            <input type="file" name="file" id="file"/>
                             <div class='dz-message'> 
                                 <!-- needsclick -->
                                 <h3 class='drop-text'>Drag and Drop Image Here</h3>
@@ -242,6 +244,23 @@ if(is_array($_FILES))
                             </div> -->
                             <!-- <input type="submit" value="Submit"> -->
                         </form>
+
+                        <!-- <form action="upload.php" class='dropzone'  id = '<php echo $db_words[$a]; ?>' method="post">
+                            <input type="file" name="file" id="file"/>
+                            <div class='dz-message'> 
+                                needsclick
+                                <h3 class='drop-text'>Drag and Drop Image Here</h3>
+                            </div>
+                            <br>
+                            <br>
+                            <div class = "title"><php echo $title_words[0]; ?></div>
+                            <input hidden='true' type='text' name='word_id' value='<php $db_words[$a] ?>'/> -->
+                            <!-- <div class="fallback">
+                                <input hidden='true' type="file" name="file" />
+                            </div> -->
+                            <!-- <input type="submit" value="Submit"> -->
+                        <!-- </form> -->
+
 
                         <br> 
                         <br> 
@@ -268,10 +287,37 @@ if(is_array($_FILES))
 
     
 <script>
-// function drop(event, word) {
-//   event.preventDefault();
+function dropHandler(element,ev,word) {
+    ev.preventDefault();
+    var file = null;
+    if (ev.dataTransfer.items) {
+    // Use DataTransferItemList interface to access the file(s)
+        for (var i = 0; i < ev.dataTransfer.items.length; i++) {
+            // If dropped items aren't files, reject them
+            if (ev.dataTransfer.items[i].kind === 'file') {
+            var file = ev.dataTransfer.items[i].getAsFile();
+            console.log('... file[' + i + '].name = ' + file.name);
+            }
+        }
+    }
+    $.ajax({
+            type: 'post',
+            url:'upload.php',
+            data:{
+                file: file,
+                word: word
+            },
+            processData: false,
+            contentType: false,
+            success:function(php_result){
+				console.log(php_result);
+				
+            }
+            
+        })
+
   
-// }
+}
 // $(document).ready(function(){
 //     $(".dropzone").dropzone({
 // 	  url: 'upload.php',
