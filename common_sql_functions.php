@@ -209,7 +209,8 @@ function getWordIdFromChar($char, $preferedPosition, $minLength, $maxLength)
 function getRandomWord($character, $puzzleWords, $lenmin, $lenmax, $daysFromToday, $strengthmin, $strengthmax, $weightmin, 
 $weightmax, $levelmin, $levelmax)
 {
-    $Where_clause_extension = ' AND words.strength BETWEEN ' . $strengthmin . ' AND ' . $strengthmax; 
+    $Where_clause_extension = ' AND words.length BETWEEN ' . $lenmin . ' AND ' . $lenmax; 
+    $Where_clause_extension .= ' AND words.strength BETWEEN ' . $strengthmin . ' AND ' . $strengthmax; 
     $Where_clause_extension .= ' AND words.weight BETWEEN ' . $weightmin . ' AND ' . $weightmax;
     $Where_clause_extension .= ' AND words.level BETWEEN ' . $levelmin . ' AND ' . $levelmax .')';
     $sql = 'SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = \'' . $character . '\'' . $Where_clause_extension; 
@@ -246,13 +247,13 @@ $weightmax, $levelmin, $levelmax)
         try {
             $word = $rows[$random]["word"];
             if (!in_array($word, $puzzleWords, true)) {
-                if(strlen($word) >= $lenmin && strlen($word) <= $lenmax){ 
+            //     if(strlen($word) >= $lenmin && strlen($word) <= $lenmax){ 
                     $chosen_word = $rows[$random];
                     break;
-                } else {
-                    $numRows--;
-                    array_splice($rows, $random, 1);
-                }
+                // } else {
+                //     $numRows--;
+                //     array_splice($rows, $random, 1);
+                // }
             } else {
                 $numRows--;
                 array_splice($rows, $random, 1);
@@ -421,7 +422,8 @@ $weightmax, $levelmin, $levelmax)
     for ($x = 0; $x < count($wordsNotToUse); $x++){
         $exclusion_words .= ' AND words.word != \'' . $wordsNotToUse[$x] . '\'';
     }
-    $Where_clause_extension = ' AND words.strength BETWEEN ' . $strengthmin . ' AND ' . $strengthmax; 
+    $Where_clause_extension = ' AND words.length BETWEEN ' . $lenmin . ' AND ' . $lenmax; 
+    $Where_clause_extension .= ' AND words.strength BETWEEN ' . $strengthmin . ' AND ' . $strengthmax; 
     $Where_clause_extension .= ' AND words.weight BETWEEN ' . $weightmin . ' AND ' . $weightmax;
     $Where_clause_extension .= ' AND words.level BETWEEN ' . $levelmin . ' AND ' . $levelmax .')';
     $sql = 'SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = \'' . $character . '\'' . $exclusion_words . $Where_clause_extension;
@@ -449,13 +451,8 @@ $weightmax, $levelmin, $levelmax)
         try {
             $word = $rows[$random]["word"];
             if (!in_array($word, $puzzleWords, true)) {
-                if(strlen($word) >= $lenmin && strlen($word) <= $lenmax){ 
-                    $chosen_word = $rows[$random];
-                    break;
-                } else {
-                    $numRows--;
-                    array_splice($rows, $random, 1);
-                }
+                $chosen_word = $rows[$random];
+                break;
             } else {
                 $numRows--;
                 array_splice($rows, $random, 1);

@@ -26,8 +26,7 @@ function insertIntoWordsTable($word, $eng_word, $image)
         $len = count($tcount);
         $processor = new wordProcessor($word, 'telugu');
         $strength = $processor->getWordStrength('telugu');
-        $processor2 = new wordProcessor($word, 'telugu');
-        $weight = $processor2->getWordWeight('telugu');
+        $weight = $processor->getWordWeight('telugu');
         
         //insert each new words into words table.
         $sqlAddWord = 'INSERT INTO words (word_id, word, english_word, image, length, strength, weight, level) 

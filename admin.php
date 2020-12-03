@@ -58,9 +58,6 @@ if ($error) {
 <table align="center" class="adminTable">
     <tr>
         <td align="center">
-            <a href="add_word.php"><img src="./pic/addAWord.png" class="adminThumbnailSize"></a>
-        </td>
-        <td align="center">
             <a href="list.php"><img src="./pic/wordList.png" class="adminThumbnailSize">
         </td>
         <td align="center">
@@ -75,22 +72,22 @@ if ($error) {
         <td align="center">
             <a href="#"><img src="./pic/configure.png" class="adminThumbnailSize"></a>
         </td>
+        <td align="center">
+            <a href="backup.php" onclick="backUpMessage()"><img src="./pic/backUp.png" class="adminThumbnailSize"></a>
+        </td>
     </tr>
     <tr>
-        <td align="center"><a href="add_word.php">Add Word</a></td>
         <td align="center"><a href="list.php">Word List</a></td>
         <td align="center"><a href="admin_manage_users.php">Users</a></td>
         <td align="center"><a href="export_db.php">Export</a></td>
         <td align="center"><a href="uploadPage.php">Import</a></td>
         <td align="center"><a href="#">Configure</a></td>
+        <td align="center"><a href="backup.php" onclick="backUpMessage()">Backup</a></td>
     </tr>
     <tr class="separator">
         <td></td>
     </tr>
     <tr>
-        <td align="center">
-            <a href="backup.php" onclick="backUpMessage()"><img src="./pic/backUp.png" class="adminThumbnailSize"></a>
-        </td>
         <td align="center">
             <a href="report.php"><img src="./pic/report.png" class="adminThumbnailSize">
         </td>
@@ -109,27 +106,23 @@ if ($error) {
         <td align="center">
             <a href="userManual.php"><img src="./pic/user_manual.png" class="adminThumbnailSize"></a>
         </td>
+        <td align="center">
+            <a href="many_From_A_list.php"><img src="./pic/manyfromalist.png" class="adminThumbnailSize">
+        </td>
     </tr>
     <tr>
-        <td align="center"><a href="backup.php" onclick="backUpMessage()">Backup</a></td>
         <td align="center"><a href="report.php">Report</a></td>
         <td align="center"><a target="_blank" href="one_to_many.php">One Word <br> Many Puzzle</a></td>
         <td align="center"><a target="_blank" href="many_to_one.php">Many Words <br> One Puzzle</a></td>
         <td align="center"><a target="_blank" href="one_to_many_plus.php">One Word <br> Many Puzzle <br> Plus</a></td>
         <td align="center"><a href="userManual.php">User <br> Manual</a></td>
+        <td align="center"><a href="many_from_a_list.php">Many From a List</a></td>
     </tr>
     <tr class="separator">
         <td></td>
     </tr>
     <tr>
-<!--
-        <td align="center">
-            <a href="ManyFromAlist.php" onclick="backUpMessage()"><img src="./pic/ManyFromAlist.png" class="adminThumbnailSize"></a>
-        </td>
--->
-         <td align="center">
-            <a href="many_From_A_list.php"><img src="./pic/manyfromalist.png" class="adminThumbnailSize">
-        </td>
+
         <td align="center">
            <a href="add_words.php"><img src="./pic/add_words.jpg" class="adminThumbnailSize">
        </td>
@@ -145,51 +138,22 @@ if ($error) {
       <td align="center">
           <a href="add_images.php"><img src="./pic/add_images.png" class="adminThumbnailSize">
       </td>
-<!--
-        <td align="center">
-            <a target="_blank" href="one_to_many.php"><img src="./pic/oneWordManyPuzzles.png"
-                                                           class="adminThumbnailSize"></a>
+      <td align="center">
+                <a href="force_sync.php"><img src="./pic/force_sync.png" class="adminThumbnailSize">
         </td>
-        <td align="center">
-            <a target="_blank" href="many_to_one.php"><img src="./pic/manyWordsOnePuzzle.png"
-                                                           class="adminThumbnailSize"></a>
-        </td>
-        <td align="center">
-            <a target="_blank" href="one_to_many_plus.php"><img src="./pic/oneWordManyPuzzlesPlus.png"
-                                                                class="adminThumbnailSize">
-        </td>
-        <td align="center">
-            <a href="userManual.php"><img src="./pic/user_manual.png" class="adminThumbnailSize"></a>
-        </td>
--->
+\
     </tr>
     <tr>
-<!--        <td align="center"><a href="ManyFromAlist.php" onclick="backUpMessage()">Backup</a></td> -->
-        <td align="center"><a href="many_from_a_list.php">Many From a List</a></td>
+        
         <td align="center"><a href="add_words.php">Add Words</a></td>
         <td align="center"><a href="add_many_words_one_image.php">Add Many Words One Image</a></td>
         <td align="center"><a href="one_from_a_given_list.php">One From a Given List</a></td>
         <td align="center"><a href="puzzle_with_exclusion.php">Create Puzzle With Exclusion List</a></td>
         <td align="center"><a href="add_images.php">Add Images</a></td>
-
-
-<!--
-        <td align="center"><a target="_blank" href="one_to_many.php">One Word <br> Many Puzzle</a></td>
-        <td align="center"><a target="_blank" href="many_to_one.php">Many Words <br> One Puzzle</a></td>
-        <td align="center"><a target="_blank" href="one_to_many_plus.php">One Word <br> Many Puzzle <br> Plus</a></td>
-        <td align="center"><a href="userManual.php">User <br> Manual</a></td>
--->
+        <td align="center"><a href="force_sync.php">Force Sync</a></td>
     </tr>
     <tr class="separator">
         <td></td>
-    </tr>
-    <tr>
-        <td align="center">
-                <a href="force_sync.php"><img src="./pic/force_sync.png" class="adminThumbnailSize">
-        </td>
-    </tr>
-    <tr>
-        <td align="center"><a href="force_sync.php">Force Sync</a></td>
     </tr>
 </table>
 </div>

@@ -23,8 +23,11 @@
 require('create_puzzle.php');
 require ('utility_functions.php');
 ?>
-<div style="width: 100%; background-color: #92d050; text-align: center;"><img src="./pic/SILClogo.jpg" style="height: 190px; width:auto; cursor: pointer;" onclick="showHideOptions()"> </div><br>
-<div class="container">
+<div style="width: 100%; background-color: #92d050;">
+    <div style="text-align: center;"><img src="./pic/logo.png" style="height: 190px; width:auto; cursor: pointer;" onclick="showHideOptions()"> </div>
+    <div style="margin-top: -110px; position:relative; bottom: 35px; left: 35px;"><a href="./admin.php"><button id="back" class="navOption">Admin</button></a></div>
+</div>
+    <br><div class="container">
     <?php
 
 
