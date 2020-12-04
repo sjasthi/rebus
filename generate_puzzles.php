@@ -22,8 +22,9 @@
   <?php
   require('create_puzzle.php');
   require('utility_functions.php');
-  ?>
-  <div style="width: 100%; background-color: #92d050; text-align: center;"><img src="./pic/SILClogo.jpg" style="height: 190px; width:auto; cursor: pointer;" onclick="showHideOptions()"> </div><br>
+  ?> 
+  <!-- ./pic/SILClogo.jpg -->
+  <div style="width: 100%; background-color: #92d050; text-align: center;"><img src="./pic/logo.png" style="height: 190px; width:auto; cursor: pointer;" onclick="showHideOptions()"> </div><br>
   <div class="container">
     <?php
     if (isset($_POST['max'])) { // this is for one to many puzzle which provides a MAX_COUNT

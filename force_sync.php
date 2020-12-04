@@ -1,7 +1,7 @@
 <?php
     session_start();
     require('session_validation.php');
-    set_time_limit(500);
+    set_time_limit(1000);
 // ================ Includes ================
 
 require 'db_configuration.php';
@@ -91,6 +91,13 @@ runSync();
                 <label class="form-check-label" for="defaultCheck1">
                     Level
                 </label>
+            </div>
+            
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" name="sync_characters" id="defaultCheck1">
+                <label class="form-check-label" for="defaultCheck1">
+                    Characters
+                </label>
             </div><br><br>
 
             <!-- Submit -->
@@ -137,6 +144,8 @@ function runSync()
     if (isset($_POST['sync_strength'])) $sync_strength = $_POST['sync_strength'];
     if (isset($_POST['sync_weight'])) $sync_weight = $_POST['sync_weight'];
     if (isset($_POST['sync_level'])) $sync_level = $_POST['sync_level'];
+    if (isset($_POST['sync_characters'])) $sync_characters = $_POST['sync_characters'];
+
 
     global $headerColor;
     global $headerMessage;
@@ -208,10 +217,12 @@ function runSync()
                     $strength = $processor->getWordStrength('english');
                 }
                 // Update that value in the DB.
-                $sql = "UPDATE `words` SET `strength` = '$strength' WHERE `word_id` = $id";
+  
+                $sql = "UPDATE `words` SET `strength` = '$strength' WHERE `word_id` = $id;";
                 run_sql($sql);
                 
             }
+            
         }
     }
 
@@ -246,6 +257,7 @@ function runSync()
                     $weight = $processor->getWordWeight('english');
                 }
                 // Update that value in the DB.
+
                 $sql = "UPDATE `words` SET `weight` = '$weight' WHERE `word_id` = $id";
                 run_sql($sql);
             }
@@ -283,8 +295,49 @@ function runSync()
                     $level = $processor->getWordStrength('english');
                 }
                 // Update that value in the DB.
+
                 $sql = "UPDATE `words` SET `level` = '$level' WHERE `word_id` = $id";
                 run_sql($sql);
+            }
+        }
+    }
+
+    if (isset($sync_characters)) {
+        
+        // An operation is being performed.
+        // Used when setting the message for the user.
+        $syncExecuted = true;
+
+        // Retrive all words from the DB.
+        $result = getWords();
+
+        // How many rows were retrieved?
+        $numRows = $result->num_rows;
+
+        //Delete all of the data from characters table
+        $deleteData = 'TRUNCATE TABLE characters;';
+        run_sql($deleteData);
+
+        // If any were found...
+        if ($numRows > 0) {
+
+            // Perform the operation each word.        
+            for ($i = 0; $i < $numRows; $i++) {
+                $row = $result->fetch_array();
+                $id = $row['word_id'];
+                $word = $row['word'];
+
+                // Update that value in the DB.
+                $processor = new wordProcessor($word, "");
+                $logicalChars = $processor->getLogicalChars();
+
+                for ($j = 0; $j < count($logicalChars); $j++) {
+                    //insert each letter into char table.
+                    if($logicalChars[$j] != " ") {
+                        $sqlAddLetters = 'INSERT INTO characters (word_id, character_index, character_value) VALUES (\'' . $id . '\', \'' . $j . '\', \'' . $logicalChars[$j] . '\');';
+                        run_sql($sqlAddLetters);
+                    }
+                }
             }
         }
     }

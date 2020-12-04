@@ -1,0 +1,15 @@
+[02-Dec-2020 07:38:56 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:39:42 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:39:45 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:44:27 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:44:45 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:45:48 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:48:22 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:50:04 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:51:18 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:54:45 Europe/Berlin] Hello! This will be logged
+[02-Dec-2020 07:56:31 Europe/Berlin] editable_list.php
+[02-Dec-2020 07:58:52 Europe/Berlin] editable_list.php
+[02-Dec-2020 07:58:52 Europe/Berlin] PHP Fatal error:  Stack Trace: 1Invalid SQL: UPDATE words SET level = '4
+' WHERE id = '2'; Error: Unknown column 'id' in 'where clause' in C:\xampp2\htdocs\rebus\db_configuration.php on line 26
+[02-Dec-2020 08:02:28 Europe/Berlin] editable_list.php

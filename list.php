@@ -14,6 +14,10 @@ if (!isset($_SESSION)) {
 // Allows user to return 'back' to this page
 
 
+ini_set("log_errors", 1); // go ahead and log the errors
+
+// log the errors to a file called "rebus_errors.log"
+ini_set("error_log", "rebus_errors.log"); 
 
 
 ?>
@@ -132,13 +136,15 @@ if (!isset($_SESSION)) {
 ?>
                 <tr>
                     <td><?php echo $ID; ?></td>
-                    <td><div contenteditable="true" onBlur="updateValue(this,'word','<?php echo $ID; ?>')"><?php echo $word; ?></div></span> </td>
-                    <td><div contenteditable="true" onBlur="updateValue(this,'english_word','<?php echo $ID; ?>')"><?php echo $english_word; ?></div></span> </td>
+                    <!-- contenteditable="true" onBlur="updateValue(this,'word','<php echo $ID; ?>')" -->
+                    <!-- contenteditable="true" onBlur="updateValue(this,'english_word','<php echo $ID; ?>')" -->
+                    <td><div><?php echo $word; ?></div></span> </td>
+                    <td><div><?php echo $english_word; ?></div></span> </td>
                     <td><div><img class="thumbnailSize" src="./Images/<?php echo $image; ?>"  alt ="" ><?php echo $image; ?></div></span> </td>
-                    <td><div><a href='admin_edit_synonyms.php?id="<?php echo $ID; ?> "&button=edit'>
+                    <td><div><a href='admin_edit_synonyms.php?id=<?php echo $ID; ?> &button=edit'>
                             <img class="table_image" src="pic/edit.jpg" alt="Edit " <?php $ID; ?>>
                             </a>
-                            <a href='list.php?id=" <?php $ID; ?> "&button=delete'>
+                            <a href='list.php?id=<?php echo $ID; ?> &button=delete'>
                                 <img class="table_image" src="pic/delete.png" alt="deleteWord">
                             </a>
                             <form class="upload" method="post" name="importFrom" enctype="multipart/form-data" onsubmit="return validateForm()">
@@ -150,7 +156,7 @@ if (!isset($_SESSION)) {
                     <td><div><?php echo $length; ?></div></span> </td>
                     <td><div><?php echo $weight; ?></div></span> </td>
                     <td><div><?php echo $strength; ?></div></span> </td>
-                    <td><div contenteditable="true" onBlur="updateValue(this,'word','<?php echo $ID; ?>')"><?php echo $level; ?></div></span> </td>
+                    <td><div contenteditable="true" onBlur="updateValue(this,'level','<?php echo $ID; ?>')"><?php echo $level; ?></div></span> </td>
                     <td><div><?php echo $date_modified; ?></div></span> </td>
                     <td><div><?php echo $date_created; ?></div></span> </td>
                 </tr>
@@ -182,7 +188,7 @@ if (!isset($_SESSION)) {
                         
                         <td>" . $row["weight"] . "</td>
                         <td>" . $row["strength"] . "</td>
-                        <td>" . $row["level"] . "</td>
+                        <td><div contenteditable=\"true\" onBlur=\"updateValue(this,'word','<?php echo $ID; ?>')\">". $row["level"] . "</div></span> </td>
                         <td>" . $row["date_modified"] . "</td>
                         <td>" . $row["date_created"] . "</td>
                         
@@ -377,9 +383,10 @@ if (!isset($_SESSION)) {
 
 function updateValue(element,column,id){
         var value = element.innerText
+
         $.ajax({
-            url:'editable_list.php',
             type: 'post',
+            url:'editable_list.php',
             data:{
                 value: value,
                 column: column,

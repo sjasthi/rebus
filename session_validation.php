@@ -123,4 +123,10 @@
 		}
 		return $topNav;
 	}
+
+	function puzzleNav(){ 
+
+		$puzzleNav = '<div style="width: 100%; background-color: #92d050; text-align: center;"><img src="./pic/logo.png" style="height: 190px; width:auto; cursor: pointer;" onclick="showHideOptions()"> </div><br>';
+		return $puzzleNav;
+	}
 ?>
