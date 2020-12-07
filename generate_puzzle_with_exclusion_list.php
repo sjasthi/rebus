@@ -114,53 +114,53 @@ require ('utility_functions.php');
                 echo '<br><input type="submit" value="Refresh">';
                 echo '</form></div>';
                 echo '</div>';
-                $lenmin = 1;
-                $lenmax = 120;
-                $daysFromToday = 1000;
-                $strengthmin = 1;
-                $strengthmax = 7;
-                $weightmin = 1;
-                $weightmax = 30;
-                $levelmin = 1;
-                $levelmax = 7;
+                $lenmin = 1; //default minimum length for a word is 1
+                $lenmax = 120; //default maximum length for a word is 120. No word is longer than 120 characters.
+                $daysFromToday = 1000; //default days from today is 1000 because no word in the database is older than 1000 days
+                $strengthmin = 1; //default minimum Strength for a word is 1
+                $strengthmax = 7; //default max strength for a word is 7.
+                $weightmin = 1; //default minimum Weight for a word is 1
+                $weightmax = 30; //default max weight for a word is 30.
+                $levelmin = 1; //default minimum level for a word is 1
+                $levelmax = 7;  //default max level for a word is 7
 
-                if (isset($_POST['lenmin']) && is_numeric($_POST['lenmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                if (isset($_POST['lenmin']) && is_numeric($_POST['lenmin'])) { 
                     $lenmin = $_POST['lenmin'];
-                  } else { // this is for one to many
+                  } else { 
                     $lenmin = 1;
                   }
           
-                  if (isset($_POST['lenmax']) && is_numeric($_POST['lenmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['lenmax']) && is_numeric($_POST['lenmax'])) { 
                     $lenmax = $_POST['lenmax'];
-                  } else { // this is for one to many
+                  } else { 
                     $lenmax = 120;
                   }
           
-                  if (isset($_POST['daysFromToday']) && is_numeric($_POST['daysFromToday'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['daysFromToday']) && is_numeric($_POST['daysFromToday'])) { 
                     $daysFromToday = $_POST['daysFromToday'];
                   } 
           
-                  if (isset($_POST['strengthmin']) && is_numeric($_POST['strengthmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['strengthmin']) && is_numeric($_POST['strengthmin'])) { 
                     $strengthmin = $_POST['strengthmin'];
                   } 
           
-                  if (isset($_POST['strengthmax']) && is_numeric($_POST['strengthmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['strengthmax']) && is_numeric($_POST['strengthmax'])) { 
                     $strengthmax = $_POST['strengthmax'];
                   } 
           
-                  if (isset($_POST['weightmin']) && is_numeric($_POST['weightmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['weightmin']) && is_numeric($_POST['weightmin'])) { 
                     $weightmin = $_POST['weightmin'];
                   } 
           
-                  if (isset($_POST['weightmax']) && is_numeric($_POST['weightmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['weightmax']) && is_numeric($_POST['weightmax'])) { 
                     $weightmax = $_POST['weightmax'];
                   } 
           
-                  if (isset($_POST['levelmin']) && is_numeric($_POST['levelmin'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['levelmin']) && is_numeric($_POST['levelmin'])) { 
                     $levelmin = $_POST['levelmin'];
                   } 
           
-                  if (isset($_POST['levelmax']) && is_numeric($_POST['levelmax'])) { // this is for one to many puzzle which provides a MAX_COUNT
+                  if (isset($_POST['levelmax']) && is_numeric($_POST['levelmax'])) { 
                     $levelmax = $_POST['levelmax'];
                   } 
 

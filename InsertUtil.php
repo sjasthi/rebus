@@ -74,34 +74,6 @@ function insertIntoCharactersTable($word)
     }
 }
 
-// function insertLengthStrengthWeightLevel($word, $length, $strength, $weight)
-// {
-//     //Check to see if entered words exists in the DB.
-//     $sqlCheck = 'SELECT * FROM words WHERE word = \'' . $word . '\';';
-//     $result = run_sql($sqlCheck);
-//     $num_rows = $result->num_rows;
 
-//     if ($num_rows == 0) {
-//         //insert each new words into words table.
-//         $sql = "UPDATE `words` SET `length` = '$len' WHERE `word` = $id";
-//         $sqlAddWord = 'INSERT INTO words (word_id, word, english_word, image) VALUES (DEFAULT, \'' . $word . '\', \'' . $eng_word . '\', \'' . $image . '\');';
-//         $result = run_sql($sqlAddWord);
-//         $word_id = $result;
-//         $logicalChars = getWordChars($word);
-
-//         for ($j = 0; $j < count($logicalChars); $j++) {
-//             //insert each letter into char table.
-//             if($logicalChars[$j] != " ") {
-//                 $sqlAddLetters = 'INSERT INTO characters (word_id, character_index, character_value) VALUES (\'' . $word_id . '\', \'' . $j . '\', \'' . $logicalChars[$j] . '\');';
-//                 run_sql($sqlAddLetters);
-//             }
-//         }
-//         echo '<h2 style="color:	green;" class="upload">Success: Word is added.</h2>';
-//     } else {
-//         //The words already exists in the database.
-//         echo '<h2 style="color:	red;" class="upload">Word already exists in the database.</h2>';
-//         //Do Nothing if the words already exists in the DB.
-//     }
-// }
 
 ?>

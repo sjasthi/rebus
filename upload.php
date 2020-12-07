@@ -1,24 +1,34 @@
 <?php
+
+ini_set("log_errors", 1); // go ahead and log the errors
+
+// log the errors to a file called "rebus_errors.log"
+ini_set("error_log", "rebus_errors.log"); 
+
 require_once('db_configuration.php');
 
-$word = $_POST['word'];
-$file = $_POST['file'];
+$ds = DIRECTORY_SEPARATOR;  //1
+ 
+$storeFolder = 'images';   //2
 
-$file_name = basename($_FILES["fileToUpload"]["name"]);
-print_r($file_name);
+$word_id = $_POST['word_id'];
 
-$target_dir = "images/";
-$target_dir = $target_dir . $file_name . "/";
-print_r($target_dir);
-if(move_uploaded_file($_FILES["file"]["tmp_name"], $target_file)){
-    $sql = "UPDATE `word`
-            SET image = $file_name
-            WHERE `word` = $word";
-
-            // mysqli_query($db, $sql);
+$fileName = $_FILES['file']['name'];
+ 
+if (!empty($_FILES)) {
+     
+    $tempFile = $_FILES['file']['tmp_name'];          //3             
+      
+    $targetPath = dirname( __FILE__ ) . $ds. $storeFolder . $ds;  //4
+     
+    $targetFile =  $targetPath. $_FILES['file']['name'];  //5
+ 
+    if(move_uploaded_file($tempFile,$targetFile)){ //6
+        $sql = 'UPDATE words SET image = \'' . $fileName . '\' WHERE word_id = ' . $word_id;
             run_sql($sql);
             header('location: add_images.php?upload=success');
-}
 
+    } 
+     
 }
-?>
+?> 

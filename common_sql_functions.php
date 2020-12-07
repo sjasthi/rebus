@@ -214,15 +214,7 @@ $weightmax, $levelmin, $levelmax)
     $Where_clause_extension .= ' AND words.weight BETWEEN ' . $weightmin . ' AND ' . $weightmax;
     $Where_clause_extension .= ' AND words.level BETWEEN ' . $levelmin . ' AND ' . $levelmax .')';
     $sql = 'SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE (characters.character_value = \'' . $character . '\'' . $Where_clause_extension; 
-    // AND words.strength BETWEEN \'' . $strengthmin . '\' AND \'' . $strengthmax . '\'
-    // AND words.weight BETWEEN \'' . $weightmin . '\' AND \'' . $weightmax . '\'
-    // AND words.level BETWEEN \'' . $levelmin . '\' AND \'' . $levelmax .'\')'
 
-    // SELECT * FROM characters INNER JOIN words ON words.word_id = characters.word_id WHERE characters.character_value = 'c' 
-    // AND words.strength BETWEEN 1 AND 5 
-    // AND words.weight BETWEEN 1 AND 5 
-    // AND words.level BETWEEN 1 AND 5 
-    // AND words.date_created BETWEEN DATE_SUB(NOW(),INTERVAL 100 DAY) AND NOW();
 
     $result = run_sql($sql);
     $rows = array();
@@ -435,11 +427,8 @@ $weightmax, $levelmin, $levelmax)
     }
     $chosen_word = null;
     $numRows = count($rows);
-    //echo $character;
-    //var_dump($puzzleWords);
 
     while (true) {
-        //echo 'Rows count: ' . $numRows . ' <br>';
         if ($numRows < 1) {
             break;
         } elseif ($numRows > 1) {
@@ -447,7 +436,6 @@ $weightmax, $levelmin, $levelmax)
         } elseif ($numRows === 1) {
             $random = 0;
         }
-        //echo $random;
         try {
             $word = $rows[$random]["word"];
             if (!in_array($word, $puzzleWords, true)) {
