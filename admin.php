@@ -33,27 +33,7 @@ else{
 session_start();
 echo getTopNav();
 ?>
-<!--<div id="export">
-    <br><br>
-    <h2 class="upload">[3]Import the word list (Source: Excel File; Target: Database)</h2>
-    <div id="import">
-        <p id="error" style="display: none;">Error: You must select a file to import</p>
-        <?php
-require('import.php');
-if ($error) {
-    ?>
-            <p id="error" style="display:block;background-color: #ce4646;padding:5px;color:#fff;">
-                <?php echo $result; ?>
-            </p>
-        <?php } ?>
-        <form class="upload" method="post" name="importFrom" enctype="multipart/form-data"
-              onsubmit="return validateForm()">
-            <label class="upload"><input class="upload" type="file" name="fileToUpload" id="fileToUpload"></label>
-            <input class="upload" type="submit" value="Submit File" name="submit">
-        </form>
-    </div> -->
-<!-- <div class="backUpSuccess">The database backup has been saved in the Sql_Scripts Folder.</div>
- <p id="demo"></p> -->
+
 <br><br>
 <table align="center" class="adminTable">
     <tr>
@@ -141,7 +121,6 @@ if ($error) {
       <td align="center">
                 <a href="force_sync.php"><img src="./pic/force_sync.png" class="adminThumbnailSize">
         </td>
-\
     </tr>
     <tr>
         
@@ -159,16 +138,6 @@ if ($error) {
 </div>
 
 <script>
-
-    //    function backUpMessage(){
-    //        var x = document.getElementsByClassName('backUpSuccess');
-    //        if (x.style.display === 'none') {
-    //            x.style.visibility = 'block';
-    //        }// else {
-    //        //    x.style.visibility = 'hidden';
-    //        //}
-    //        return false;
-    //    }
 
     function backUpMessage() {
         //document.getElementById("demo").innerHTML = "The database backup has been saved in the Sql_Scripts Folder.";
