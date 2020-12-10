@@ -1,10 +1,14 @@
+<?PHP
+    session_start();
+	require('session_validation.php');
+	require('db_configuration.php');
+    require('InsertUtil.php');
+	echo getTopNav(); 
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <?PHP
-    session_start();
-    require('session_validation.php');
-    ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -38,11 +42,7 @@
 	</style>	
 </head>
 <body>
-<?php
-require('db_configuration.php');
-require('InsertUtil.php');
-?>
-<?PHP echo getTopNav(); ?>
+
 <div id="pop_up_fail" class="container pop_up" style="display:none">
     <div class="pop_up_background">
         <img class="pop_up_img_fail" src="pic/info_circle.png">

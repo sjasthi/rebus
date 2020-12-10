@@ -4,8 +4,8 @@ require_once('db_configuration.php');
 require('language_processor_functions.php');
 require('utility_functions.php');
 require('common_sql_functions.php');
-require_once('indicTextAnalyzer/word_processor.php');
-require_once('indicTextAnalyzer/telugu_parser.php');
+require_once('IndicTextAnalyzer/word_processor.php');
+require_once('IndicTextAnalyzer/telugu_parser.php');
 
 
 /**

@@ -80,6 +80,7 @@ ini_set("error_log", "rebus_errors.log");
 
                 <th>English Word</th>
 
+                <th>Image</th>
 
                 <th>Actions</th>
 
@@ -91,6 +92,9 @@ ini_set("error_log", "rebus_errors.log");
 
                 <th>Level</th>
 
+                <th>Date Modified</th>
+
+                <th>Date Created</th>
 
 
             </tr>
@@ -119,10 +123,13 @@ ini_set("error_log", "rebus_errors.log");
                     $ID = $row["word_id"];
                     $word = $row["word"];
                     $english_word = $row["english_word"];
+                    $image = $row["image"];
                     $length = $row["length"];
                     $weight = $row["weight"];
                     $strength = $row["strength"];
                     $level = $row["level"];
+                    $date_modified = $row["date_modified"];
+                    $date_created = $row["date_created"];
 
                     $_SESSION['role'] = "Admin";
                     if(isset($_SESSION['role'])) {
@@ -133,6 +140,7 @@ ini_set("error_log", "rebus_errors.log");
                     <!-- contenteditable="true" onBlur="updateValue(this,'english_word','<php echo $ID; ?>')" -->
                     <td><div><?php echo $word; ?></div></span> </td>
                     <td><div><?php echo $english_word; ?></div></span> </td>
+                    <td><div><img class="thumbnailSize" src="./Images/<?php echo $image; ?>"  alt ="" ><?php echo $image; ?></div></span> </td>
                     <td><div><a href='admin_edit_synonyms.php?id=<?php echo $ID; ?> &button=edit'>
                             <img class="table_image" src="pic/edit.jpg" alt="Edit " <?php $ID; ?>>
                             </a>
@@ -149,6 +157,8 @@ ini_set("error_log", "rebus_errors.log");
                     <td><div><?php echo $weight; ?></div></span> </td>
                     <td><div><?php echo $strength; ?></div></span> </td>
                     <td><div contenteditable="true" onBlur="updateValue(this,'level','<?php echo $ID; ?>')"><?php echo $level; ?></div></span> </td>
+                    <td><div><?php echo $date_modified; ?></div></span> </td>
+                    <td><div><?php echo $date_created; ?></div></span> </td>
                 </tr>
                  <?php  
                     }else{ 
@@ -159,7 +169,8 @@ ini_set("error_log", "rebus_errors.log");
                 
                         <td>" . $row["english_word"] . "</td>
                 
-                      
+                        <td><img class=\"thumbnailSize\" src=\"./Images/" . $row["image"] . "\"  alt =\"" . $row["image"] . "\" ></td>
+                        
                         <td>
                             <a href='admin_edit_synonyms.php?id=" . $row["word_id"] . "&button=edit'>
                                 <img class=\"table_image\" src=\"pic/edit.jpg\" alt=\"Edit " . $row["word_id"] . " word\">
@@ -178,7 +189,8 @@ ini_set("error_log", "rebus_errors.log");
                         <td>" . $row["weight"] . "</td>
                         <td>" . $row["strength"] . "</td>
                         <td><div contenteditable=\"true\" onBlur=\"updateValue(this,'word','<?php echo $ID; ?>')\">". $row["level"] . "</div></span> </td>
-            
+                        <td>" . $row["date_modified"] . "</td>
+                        <td>" . $row["date_created"] . "</td>
                         
                         </tr>";
                 }
@@ -246,7 +258,8 @@ ini_set("error_log", "rebus_errors.log");
 
                 <th>English Word</th>
 
-      
+                <th>Image</th>
+
                 <th>Actions</th>
 
                 <th>Length</th>
@@ -257,7 +270,9 @@ ini_set("error_log", "rebus_errors.log");
 
                 <th>Level</th>
 
-    
+                <th>Date Modified</th>
+
+                <th>Date Created</th>
 
             </tr>
 
