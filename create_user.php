@@ -1,4 +1,6 @@
 <?php
+session_start();
+require('session_validation.php');
 // $status = session_status();
 // if ($status == PHP_SESSION_NONE) {
 //     session_start();
@@ -38,8 +40,7 @@ $page = "create_user.php";
             font-size: 10px;
         }
     </style>
- <?php   session_start();
-require('session_validation.php');
+ <?php
  echo getTopNav(); ?>
     <form action="create_the_user.php" method="POST" enctype="multipart/form-data">
         <br>

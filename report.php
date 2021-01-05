@@ -1,3 +1,7 @@
+<?PHP
+session_start();
+require('session_validation.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,11 +19,6 @@
 </head>
 <title>Rebus Reports</title>
 <body>
-
-<?PHP
-session_start();
-require('session_validation.php');
-?>
 <?PHP echo getTopNav(); ?>
 <div id="container" align="center">
     <?php

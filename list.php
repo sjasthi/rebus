@@ -1,5 +1,5 @@
 <?php //include 'navbar.php';
-
+session_start();
 require('session_validation.php');
 // Start session to store variables
 

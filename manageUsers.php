@@ -1,3 +1,8 @@
+<?PHP
+session_start();
+require('session_validation.php');
+require('db_configuration.php');
+?>
 <!DOCTYPE html>
 <html>
 
@@ -16,9 +21,6 @@
     <title>Rebus Users</title>
 </head>
 <?PHP
-require('session_validation.php');
-require('db_configuration.php');
-
 $sql = 'SELECT * FROM users;';
 $result = run_sql($sql);
 ?>

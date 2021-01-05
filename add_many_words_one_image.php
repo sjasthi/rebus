@@ -1,3 +1,10 @@
+<?PHP
+session_start();
+require('session_validation.php');
+require('db_configuration.php');
+require('InsertUtil.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,12 +22,6 @@
 </head>
 <title>Rebus Many From a List</title>
 <body>
-<?PHP
-session_start();
-require('session_validation.php');
-require('db_configuration.php');
-require('InsertUtil.php');
-?>
 <?PHP echo getTopNav(); ?>
 <div id="pop_up_fail" class="container pop_up" style="display:none">
     <div class="pop_up_background">

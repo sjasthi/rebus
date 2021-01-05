@@ -1,3 +1,12 @@
+<?php
+session_start();
+if (isset($_GET['session_id'])) {
+  require_once('user_sessions.php');
+  create_session($_GET['session_id']);
+  header('location: index.php');
+}
+require('session_validation.php');
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,10 +24,6 @@
   </head>
   <title>Rebus</title>
   <body>
-    <?PHP
-    session_start();
-    require('session_validation.php');
-    ?>
     <?PHP echo getTopNav(); ?>
     <div class="divTitle" align="center">
       <font class="font">Rebus Puzzle</font>

@@ -1,3 +1,15 @@
+<?PHP
+session_start();
+require('session_validation.php');
+//require('import.php');
+/*
+if ((!isset($_SESSION['valid_admin'])){
+    echo "<meta http-equiv=\"refresh\" content=\"0;URL=login.php\">";
+}
+else{
+}
+*/
+?>
 <!DOCTYPE html>
 <html>
 
@@ -15,18 +27,6 @@
     <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
     <title>Rebus Import</title>
 </head>
-<?PHP
-require('session_validation.php');
-//require('import.php');
-/*
-if ((!isset($_SESSION['valid_admin'])){
-    echo "<meta http-equiv=\"refresh\" content=\"0;URL=login.php\">";
-}
-else{
-}
-*/
-?>
-
 <body>
 <?PHP
 session_start();

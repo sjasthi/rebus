@@ -1,11 +1,11 @@
+<?PHP
+session_start();
+require('session_validation.php');
+//require ('list.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <?PHP
-    session_start();
-    require('session_validation.php');
-    //require ('list.php');
-    ?>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">

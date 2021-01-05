@@ -1,3 +1,9 @@
+<?PHP
+session_start();
+require('session_validation.php');
+include('admin_manage_users_helper.php')
+?>
+
 <!DOCTYPE html>
 <html>
     <head>
@@ -14,11 +20,6 @@
         <link rel="stylesheet" href="styles/custom_nav.css" type="text/css">
         <title>Rebus Users</title>
     </head>
-<?PHP
-//session_start();
-require('session_validation.php');
-include('admin_manage_users_helper.php')
-?>
     <body>
     <?PHP echo getTopNav(); ?>
 
