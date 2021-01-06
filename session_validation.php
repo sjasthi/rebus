@@ -1,27 +1,23 @@
 <?php
+$status = session_status();
+if ($status == PHP_SESSION_NONE) {
+     session_start();
+}
+require_once('user_sessions.php');
+
 	/**
 	 * Returns true if user has a valid
 	 * session else false
 	 */
 	function sessionExists() {
-		if ((isset($_SESSION['valid_user'])) && (($_SESSION['valid_user']) != null))  {
-			return true;
-		}
-		else {
-			return false;
-		}
+		return is_logged_in();
 	}
 	/**
 	 * Returns true if user has a valid session
 	 * and if the user is an admin
 	 */
 	function adminSessionExists() {
-		if ((isset($_SESSION['valid_admin'])) && (($_SESSION['valid_admin']) != null)) {
-			return true;
-		}
-		else{
-			return false;
-		}
+		return is_admin();
 	}
 	/**
 	 * Generates topnav to display admin topnav
@@ -29,6 +25,7 @@
 	 * normal navbar
 	 */
 	function getTopNav() {
+		session_start();
 		$topNav = "";
 		if (adminSessionExists()) {
 			$topNav = '<nav class="navbar navbar-default" role="navigation" style="background-color: transparent;">
@@ -113,7 +110,7 @@
 				<a href="./addWordPair.php"><button id="addpuzzle" class="navOption">Add<br> Word<br> Pairs</button></a>
 			</li> -->
 			<li>
-				<a href="./login.php"><button id="login" class="navOption">Login</button></a>
+				<a href="' . LOGIN_LINK . '"><button id="login" class="navOption">Login</button></a>
 			</li>
 			</ul>
 			</div>

@@ -1,12 +1,13 @@
+<?PHP
+session_start();
+require('session_validation.php');
+require_once('add_puzzle_process.php');
+require_once('utility_functions.php');
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
-    <?PHP
-    require_once('add_puzzle_process.php');
-    require_once('utility_functions.php');
-    session_start();
-    require('session_validation.php')
-    ?>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

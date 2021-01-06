@@ -1,3 +1,7 @@
+<?PHP
+session_start();
+require('session_validation.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,10 +19,6 @@
 </head>
 <title>Rebus Puzzle With Exclusion</title>
 <body>
-<?PHP
-session_start();
-require('session_validation.php');
-?>
 <?PHP echo getTopNav(); ?>
 <div class="divTitle" align="center">
     <font class="font">Rebus Puzzle (One With Exclusion List)</font>

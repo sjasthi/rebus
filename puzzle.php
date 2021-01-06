@@ -1,3 +1,10 @@
+<?PHP
+session_start();
+require('session_validation.php');
+require_once('create_puzzle.php');
+require_once('common_sql_functions.php');
+require_once('utility_functions.php');
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,13 +23,6 @@
 </head>
 
 <body>
-<?php
-require_once('create_puzzle.php');
-require_once('common_sql_functions.php');
-require_once('utility_functions.php');
-session_start();
-require_once('session_validation.php');
-?>
 <?PHP echo getTopNav(); ?>
 <div id="pop_up_fail" class="pop_up" style="display:none">
     <div class="pop_up_background">

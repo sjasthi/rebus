@@ -1,8 +1,7 @@
 <?php
-
-require 'db_configuration.php';
-require('session_validation.php');
 session_start();
+require('session_validation.php');
+require 'db_configuration.php';
 
 ini_set("log_errors", 1); // go ahead and log the errors
 
