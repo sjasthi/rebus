@@ -1,9 +1,6 @@
 <?php
-$status = session_status();
-if ($status == PHP_SESSION_NONE) {
-     session_start();
-}
-require_once('user_sessions.php');
+require_once 'includes/session_start.php';
+require_once 'user_sessions.php';
 
 	/**
 	 * Returns true if user has a valid
@@ -25,7 +22,7 @@ require_once('user_sessions.php');
 	 * normal navbar
 	 */
 	function getTopNav() {
-		session_start();
+		require_once 'includes/session_start.php';
 		$topNav = "";
 		if (adminSessionExists()) {
 			$topNav = '<nav class="navbar navbar-default" role="navigation" style="background-color: transparent;">
@@ -74,7 +71,7 @@ require_once('user_sessions.php');
 				<a href="./puzzle_list.php"><button id="list" class="navOption">List</button></a>
 			</li>
 			<li>
-				<a href="./about.php"><button id="addword" class="navOption">Abour</button></a>
+				<a href="./about.php"><button id="addword" class="navOption">About</button></a>
 			</li>
 			<!--<li>
 				<a href="./addWordPair.php"><button id="addpuzzle" class="navOption">Add<br> Word<br> Pairs</button></a>

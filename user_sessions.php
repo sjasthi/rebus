@@ -1,6 +1,6 @@
 <?php
-session_start();
-/* Local testing 
+require_once 'includes/session_start.php';
+///* Local testing 
 // user sessions database information
 DEFINE('USER_SESSIONS_DATABASE_HOST', 'localhost');
 DEFINE('USER_SESSIONS_DATABASE_NAME', 'puzzleapps_db');
@@ -12,20 +12,6 @@ $app_id = 5;
 DEFINE('LOGIN_LINK', "http://localhost/telugupuzzles/login.php?app_id=" . $app_id);
 DEFINE('LOGOUT_LINK', "http://localhost/telugupuzzles/logout.php");
 DEFINE('REGISTER_LINK', "http://localhost/telugupuzzles/register.php?app_id==" . $app_id);
-/**/
-
-/* live */
-// user sessions database information TODO: REMOVE BEFORE GITHUB
-DEFINE('USER_SESSIONS_DATABASE_HOST', 'localhost');
-DEFINE('USER_SESSIONS_DATABASE_NAME', 'icsbinco_indicpuzzles_db');
-DEFINE('USER_SESSIONS_DATABASE_USERNAME', 'icsbinco_indic_puzzles');
-DEFINE('USER_SESSIONS_DATABASE_PASSWORD', 'indic_puzzles_123');
-// this app's id
-$app_id = 5; // TODO: check what this is
-// links
-DEFINE('LOGIN_LINK', "http://telugupuzzles.com/login.php?app_id=" . $app_id);
-DEFINE('LOGOUT_LINK', "http://telugupuzzles.com/logout.php");
-DEFINE('REGISTER_LINK', "http://telugupuzzles.com/register.php?app_id==" . $app_id);
 /**/
 
 /**

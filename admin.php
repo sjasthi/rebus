@@ -1,5 +1,4 @@
 <?php
-  session_start();
   require('session_validation.php');
   echo getTopNav();
 ?>

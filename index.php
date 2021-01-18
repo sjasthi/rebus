@@ -1,11 +1,10 @@
 <?php
-session_start();
+require('session_validation.php');
 if (isset($_GET['session_id'])) {
   require_once('user_sessions.php');
   create_session($_GET['session_id']);
   header('location: index.php');
 }
-require('session_validation.php');
 ?>
 <!DOCTYPE html>
 <html>

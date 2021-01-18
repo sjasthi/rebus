@@ -1,5 +1,4 @@
 <?PHP
-session_start();
 require('session_validation.php');
 //require('import.php');
 /*
@@ -29,7 +28,6 @@ else{
 </head>
 <body>
 <?PHP
-session_start();
 echo getTopNav();
 ?>
 <div id="export">

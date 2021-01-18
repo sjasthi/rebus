@@ -1,5 +1,4 @@
 <?PHP
-session_start();
 require('session_validation.php');
 ?>
 <!DOCTYPE html>
@@ -46,7 +45,6 @@ require('session_validation.php');
         </thead>
         <tbody>
           <?php
-          //session_start();
           $sql = 'SELECT * FROM puzzles ORDER BY puzzle_name, puzzle_id;';
           $db = new mysqli(DATABASE_HOST, DATABASE_USER, DATABASE_PASSWORD, DATABASE_DATABASE);
           $db->set_charset("utf8");

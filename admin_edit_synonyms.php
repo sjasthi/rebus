@@ -1,5 +1,4 @@
 <?PHP
-session_start();
 require('session_validation.php');
 require_once('db_configuration.php');
 require_once('create_puzzle.php');

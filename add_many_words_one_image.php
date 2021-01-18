@@ -1,5 +1,4 @@
 <?PHP
-session_start();
 require('session_validation.php');
 require('db_configuration.php');
 require('InsertUtil.php');
