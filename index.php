@@ -1,10 +1,5 @@
 <?php
 require('session_validation.php');
-if (isset($_GET['session_id'])) {
-  require_once('user_sessions.php');
-  create_session($_GET['session_id']);
-  header('location: index.php');
-}
 ?>
 <!DOCTYPE html>
 <html>
