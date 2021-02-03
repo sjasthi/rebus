@@ -1,5 +1,4 @@
 <?PHP
-session_start();
 require('session_validation.php')
 ?>
 
@@ -23,7 +22,6 @@ require('session_validation.php')
 
 <body>
     <?PHP
-    //session_start();
     echo getTopNav();
     ?>
     <br>

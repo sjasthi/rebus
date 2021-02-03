@@ -1,5 +1,4 @@
 <?PHP
-session_start();
 require('session_validation.php');
 require('db_configuration.php');
 ?>
@@ -27,7 +26,6 @@ $result = run_sql($sql);
 
 <body>
 <?PHP
-session_start();
 echo getTopNav();
 
 echo '<div>

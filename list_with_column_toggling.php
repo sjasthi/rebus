@@ -1,14 +1,11 @@
 <?php //include 'navbar.php';
-session_start();
 require('session_validation.php');
 // Start session to store variables
 
 if (!isset($_SESSION)) {
     ini_set('session.cache_limiter', 'public');
     session_cache_limiter(false);
-
-    session_start();
-
+    require_once 'includes/session_start.php';
 }
 
 // Allows user to return 'back' to this page
