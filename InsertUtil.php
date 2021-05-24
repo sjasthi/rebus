@@ -4,9 +4,9 @@ require_once('db_configuration.php');
 require('language_processor_functions.php');
 require('utility_functions.php');
 require('common_sql_functions.php');
-require_once('IndicTextAnalyzer/word_processor.php');
-require_once('IndicTextAnalyzer/telugu_parser.php');
+require_once 'includes/indic-wp.php';
 
+$language = "Telugu";
 
 /**
  * This method inserts given data into the Words table
@@ -16,15 +16,16 @@ require_once('IndicTextAnalyzer/telugu_parser.php');
  */
 function insertIntoWordsTable($word, $eng_word, $image)
 {
+    global $language;
     //Check to see if entered words exists in the DB.
     $sqlCheck = 'SELECT * FROM words WHERE word = \'' . $word . '\';';
     $result = run_sql($sqlCheck);
     $num_rows = $result->num_rows;
 
     if ($num_rows == 0) {
-        $tcount = parseToLogicalCharacters($word);
-        $len = count($tcount);
         $processor = new wordProcessor($word, 'telugu');
+        $tcount = $processor->parseToLogicalCharacters($word);
+        $len = count($tcount);
         $strength = $processor->getWordStrength('telugu');
         $weight = $processor->getWordWeight('telugu');
         
