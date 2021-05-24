@@ -6,8 +6,8 @@
 require 'db_configuration.php';
 
 // Include the word processor file.
-include('indicTextAnalyzer/word_processor.php');
-include('indicTextAnalyzer/telugu_parser.php');
+require_once 'includes/indic-wp.php';
+$language = "Telugu";
 
 // ================ Variables ================
 
@@ -17,7 +17,7 @@ $headerColor = "#ffae42";
 // ================ Operations ================
 
 // Perform sync operations requested by the user.
-runSync();
+runSync($language);
 
 ?>
 
@@ -137,8 +137,7 @@ function getWords()
 }
 
 // Performs the actual sync operations.
-function runSync()
-{
+function runSync($language){
     if (isset($_POST['sync_length'])) $sync_length = $_POST['sync_length'];
     if (isset($_POST['sync_strength'])) $sync_strength = $_POST['sync_strength'];
     if (isset($_POST['sync_weight'])) $sync_weight = $_POST['sync_weight'];
@@ -173,9 +172,10 @@ function runSync()
                 $row = $result->fetch_array();
                 $id = $row['word_id'];
                 $word = $row['word'];
+                $wordProcessor = new wordProcessor($word, $language);
 
                 // Find the word's length.
-                $tcount = parseToLogicalCharacters($word);
+                $tcount = $wordProcessor->parseToLogicalCharacters($word);
                 $len = count($tcount);
 
                 // Update that value in the DB.
